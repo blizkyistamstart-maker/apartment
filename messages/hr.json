@@ -1,0 +1,245 @@
+{
+  "Meta": {
+    "title": "Apartment Ivanka · Apartman u potkrovlju uz plažu na Čiovu, Trogir",
+    "description": "Apartman u potkrovlju s balkonom i pogledom na more za do 5 gostiju u Mastrinki na Čiovu: 3 minute hoda do plaže, 3,5 km od Trogira, 5 km od zračne luke Split. Klima, besplatan Wi-Fi, besplatan privatni parking. Rezervirajte izravno kod domaćina — bez naknada platformi."
+  },
+  "Header": {
+    "nav": {
+      "apartment": "Apartman",
+      "gallery": "Galerija",
+      "availability": "Dostupnost",
+      "location": "Lokacija",
+      "faq": "Pitanja"
+    },
+    "cta": "Pošalji upit",
+    "languageLabel": "Jezik"
+  },
+  "Hero": {
+    "eyebrow": "Mastrinka, Čiovo · Trogir, Hrvatska",
+    "headline": "Probudite se uz pogled na trogirski zaljev",
+    "subheadline": "Ugodan apartman u potkrovlju za do {guests} gostiju, samo 3 minute hoda od plaže u Mastrinki. Rezervirajte izravno kod nas — osobna usluga, najbolja cijena.",
+    "ctaPrimary": "Provjeri dostupnost",
+    "ctaSecondary": "Pogledaj apartman",
+    "proof": "{count} recenzija na Booking.comu",
+    "imageAlt": "Pogled s balkona apartmana preko crvenih krovova i čempresa na trogirski zaljev",
+    "facts": {
+      "guests": "Do {count} gostiju",
+      "bedrooms": "{count} spavaće sobe",
+      "size": "{size} m²",
+      "floor": "Cijelo potkrovlje"
+    }
+  },
+  "Apartment": {
+    "eyebrow": "Apartman",
+    "title": "Cijelo potkrovlje — samo za vas",
+    "intro": "70 m² pod krovom, balkon s pogledom na more i sve što vam treba za opuštene dane na Jadranu.",
+    "body1": "Dvije spavaće sobe — jedna s bračnim krevetom, druga s bračnim i jednostrukim — te kauč na razvlačenje u dnevnom boravku: mjesta za do pet gostiju, idealno za obitelji. U čajnoj kuhinji s blagovaonskim stolom čekaju vas aparat za kavu i kuhalo za vodu, a jutarnja kava najbolja je na balkonu s pogledom na zaljev.",
+    "body2": "Apartman se nalazi u potkrovlju s tipičnim ugodnim kosim stropovima — jako visoki gosti neka pripaze na glavu u drugoj spavaćoj sobi, a klima ljeti sve ugodno rashlađuje. Do šljunčane plaže spušta se pješice za nekoliko minuta, trgovina je odmah iza ugla, a besplatno parkirno mjesto čeka vas uz kuću.",
+    "beds": {
+      "title": "Raspored spavanja",
+      "br1": "Spavaća soba 1 · bračni krevet",
+      "br2": "Spavaća soba 2 · bračni + jednostruki krevet",
+      "sofa": "Dnevni boravak · kauč na razvlačenje"
+    },
+    "items": {
+      "beachfront": "Plaža na 3 minute hoda",
+      "seaView": "Balkon s pogledom na more",
+      "terrace": "Terasa",
+      "gardenView": "Pogled na vrt",
+      "ac": "Klima-uređaj",
+      "wifi": "Besplatan Wi-Fi",
+      "kitchen": "Čajna kuhinja s blagovaonicom",
+      "coffee": "Aparat za kavu i kuhalo",
+      "parking": "Besplatan privatni parking",
+      "tv": "TV",
+      "family": "Pogodno za obitelji",
+      "nonSmoking": "Za nepušače"
+    }
+  },
+  "Gallery": {
+    "eyebrow": "Galerija",
+    "title": "Razgledajte",
+    "captions": {
+      "balconyPanorama": "Panoramski pogled s balkona na trogirski zaljev",
+      "balconySea": "Natkriveni balkon s pogledom na more i suncobranom",
+      "viewBay": "Pogled preko zaljeva na Trogir i planine",
+      "sunset": "Zalazak sunca nad trogirskim zaljevom",
+      "sunsetBalcony": "Večernje rumenilo s balkona",
+      "living": "Dnevni boravak s velikom kutnom garniturom",
+      "livingOpen": "Otvoreni dnevni i blagovaonski prostor s TV-om i klimom",
+      "dining": "Blagovaonica s drvenim stolom i sofom",
+      "diningTable": "Postavljeni blagovaonski stol",
+      "kitchen": "Potpuno opremljena kuhinja",
+      "kitchenDetail": "Kuhinjski element sa štednjakom i pećnicom",
+      "hallwaySeaview": "Blagovaonica s pogledom prema balkonskim vratima i moru",
+      "bedroomSeaview": "Spavaća soba s bračnim krevetom i pogledom na more",
+      "bedroomSunset": "Spavaća soba s dodatnom sofom na razvlačenje",
+      "bedroomOrange": "Druga spavaća soba s pogledom na more",
+      "bedroom2View": "Druga spavaća soba s pogledom na zaljev",
+      "bathroom": "Kupaonica u izgledu mramora",
+      "bathroomShower": "Kupaonica s tušem i umivaonikom",
+      "hallway": "Hodnik s balkonskim vratima i pogledom na more",
+      "entrance": "Ulaz u kuću s bugenvilijom i vlastitim stubama"
+    },
+    "close": "Zatvori",
+    "previous": "Prethodna slika",
+    "next": "Sljedeća slika"
+  },
+  "Video": {
+    "eyebrow": "Video",
+    "title": "Video obilazak",
+    "placeholder": "Pripremamo video obilazak apartmana — navratite uskoro."
+  },
+  "Availability": {
+    "eyebrow": "Dostupnost",
+    "title": "Kada biste željeli doći?",
+    "intro": "Kalendar je sinkroniziran s našim oglasom na Booking.comu — ono što vidite ovdje je ažurno.",
+    "legendFree": "Slobodno",
+    "legendBooked": "Zauzeto",
+    "mockNote": "Primjeri podataka za pregled — kalendar će prikazivati stvarnu dostupnost čim se poveže s Booking.comom.",
+    "syncNote": "Automatski se sinkronizira s našim kalendarom rezervacija.",
+    "cta": "Pošaljite upit za termin",
+    "prevMonth": "Prethodni mjesec",
+    "nextMonth": "Sljedeći mjesec"
+  },
+  "Location": {
+    "eyebrow": "Lokacija",
+    "title": "Mastrinka na Čiovu — more pred vratima, Trogir iza ugla",
+    "intro": "Miran položaj iznad zaljeva na otoku Čiovu — s plažom i trgovinom na pješačkoj udaljenosti.",
+    "body": "Apartman se nalazi u Mastrinki na otoku Čiovu, točno iznad trogirskog zaljeva. Do šljunčane plaže spušta se pješice za nekoliko minuta, a trgovina je u neposrednoj blizini. Do trogirske starogradske jezgre pod zaštitom UNESCO-a, s konobama i tvrđavom Kamerlengo, stiže se autom za nekoliko minuta, a zračna luka Split udaljena je samo 5 km — savršeno za dolazak i odlazak bez stresa.",
+    "mapTitle": "Karta s lokacijom apartmana u Mastrinki na Čiovu",
+    "distances": {
+      "oldTown": { "label": "Stara jezgra Trogira (UNESCO)", "value": "3,5 km" },
+      "beach": { "label": "Plaža Mastrinka", "value": "3 minute hoda" },
+      "airport": { "label": "Zračna luka Split (SPU)", "value": "5 km" },
+      "split": { "label": "Split", "value": "oko 30 km" }
+    }
+  },
+  "Reviews": {
+    "eyebrow": "Recenzije gostiju",
+    "title": "Što kažu naši gosti",
+    "intro": "Stvarne recenzije gostiju s Booking.coma, prevedene s izvornog jezika.",
+    "scoreLabel": "Vrlo dobro",
+    "countLabel": "{count} recenzija na Booking.comu",
+    "categories": {
+      "staff": "Osoblje",
+      "facilities": "Sadržaji",
+      "cleanliness": "Čistoća",
+      "comfort": "Udobnost",
+      "value": "Omjer cijene i kvalitete",
+      "location": "Lokacija"
+    },
+    "items": {
+      "r1": {
+        "quote": "Sve savršeno. Vrlo čisto, dobro opremljeno, sasvim blizu plaže i trgovine.",
+        "name": "Sarah",
+        "origin": "Njemačka"
+      },
+      "r2": {
+        "quote": "Zaista izvrstan smještaj, na dva koraka od plaže. Praktičan parking na ulazu, sve besprijekorno čisto, a domaćica izuzetno ljubazna i susretljiva. Dobro opremljena kuhinja.",
+        "name": "Michele",
+        "origin": "Italija"
+      },
+      "r3": {
+        "quote": "Super — prostran, čist i prekrasan apartman. Draga i susretljiva vlasnica. Sve u redu.",
+        "name": "Jedličková",
+        "origin": "Češka"
+      },
+      "r4": {
+        "quote": "Idealna lokacija, desetak minuta do plaže. Vrlo ljubazna i susretljiva domaćica, prvoklasna opremljenost, udobni kreveti i prekrasan pogled s terase.",
+        "name": "Robert",
+        "origin": "Njemačka"
+      },
+      "r5": {
+        "quote": "Vrlo susretljiva i pažljiva domaćica. Mirna lokacija s pogledom na zaljev, parking i kvalitetna oprema.",
+        "name": "Mikhail",
+        "origin": "Finska"
+      },
+      "r6": {
+        "quote": "Apartman je vrlo blizu plaže, a pogled je lijep baš kao na fotografijama. Trgovina je u blizini — praktično i za izlete u Trogir i Split i za dane na plaži.",
+        "name": "Alberto",
+        "origin": "Španjolska"
+      }
+    }
+  },
+  "Faq": {
+    "eyebrow": "Dobro je znati",
+    "title": "Česta pitanja",
+    "items": {
+      "checkin": {
+        "q": "Kada su prijava i odjava?",
+        "a": "Prijava je između 15 i 18 sati, odjava između 8 i 10 sati. Ako raspored dopušta, fleksibilni smo — samo pitajte."
+      },
+      "parking": {
+        "q": "Ima li parkinga?",
+        "a": "Da, uz kuću je besplatan privatni parking."
+      },
+      "beach": {
+        "q": "Koliko je udaljena plaža?",
+        "a": "Šljunčana plaža u Mastrinki udaljena je samo oko 3 minute hoda — savršeno za jutarnje kupanje. Do ostalih plaža na Čiovu lako se dolazi autom."
+      },
+      "family": {
+        "q": "Je li apartman prikladan za djecu?",
+        "a": "Svakako — djeca su dobrodošla. Dječje krevetiće ni pomoćne ležajeve nažalost ne možemo osigurati, ali uz dvije spavaće sobe tu je i kauč na razvlačenje u dnevnom boravku."
+      },
+      "pets": {
+        "q": "Jesu li kućni ljubimci dopušteni?",
+        "a": "Ne, kućni ljubimci nažalost nisu dopušteni u apartmanu."
+      },
+      "rules": {
+        "q": "Koja kućna pravila vrijede?",
+        "a": "Apartman je za nepušače, zabave nisu dopuštene, a noćni mir je od 22 do 8 sati — susjedi će vam biti zahvalni."
+      },
+      "booking": {
+        "q": "Kako rezervirati i platiti?",
+        "a": "Pošaljite nam upit sa željenim terminom. Dostupnost potvrđujemo e-poštom ili WhatsAppom — bez naknada platformi, a preko stranice se ništa ne plaća. Po želji možete rezervirati i putem Booking.coma."
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "Kontakt",
+    "title": "Pošaljite upit za svoj termin",
+    "intro": "Javite nam se — obično odgovaramo u roku od nekoliko sati.",
+    "whatsappGreeting": "Pozdrav! Zanima me Apartment Ivanka u Mastrinki kod Trogira.",
+    "whatsappHint": "Najbrži način da nas dobijete",
+    "emailLabel": "E-pošta",
+    "phoneLabel": "Telefon",
+    "directNote": "Kod izravne rezervacije nema naknada platformi — za isti termin obično možemo ponuditi bolju cijenu nego Booking.com."
+  },
+  "Form": {
+    "name": "Vaše ime",
+    "namePlaceholder": "Ana Horvat",
+    "email": "E-pošta",
+    "arrival": "Dolazak",
+    "departure": "Odlazak",
+    "guests": "Gosti",
+    "message": "Poruka (neobavezno)",
+    "messagePlaceholder": "Pitanja, vrijeme dolaska, sve što bismo trebali znati…",
+    "submit": "Pošalji upit",
+    "privacyNote": "Vaše podatke koristimo isključivo za odgovor na ovaj upit.",
+    "errors": {
+      "name": "Molimo unesite svoje ime.",
+      "email": "Molimo unesite ispravnu adresu e-pošte.",
+      "arrival": "Molimo odaberite datum dolaska.",
+      "departure": "Molimo odaberite datum odlaska.",
+      "dates": "Odlazak mora biti nakon dolaska.",
+      "guests": "Molimo odaberite broj gostiju.",
+      "generic": "Molimo provjerite ovo polje.",
+      "submit": "Nešto je pošlo po zlu. Pokušajte ponovno ili nam se javite WhatsAppom."
+    },
+    "successTitle": "Hvala — vaš upit je poslan!",
+    "successBody": "Javit ćemo vam se što je prije moguće, obično u roku od nekoliko sati. Želite još brži odgovor?",
+    "successWhatsapp": "Nastavi na WhatsAppu",
+    "whatsappSummary": "Pozdrav! Ja sam {name}. Poslao/la sam upit putem stranice za termin od {arrival} do {departure}, {guests} gostiju."
+  },
+  "Footer": {
+    "tagline": "Vaš apartman uz plažu u Mastrinki na Čiovu — rezervirajte izravno kod domaćina.",
+    "contact": "Kontakt",
+    "countryName": "Hrvatska",
+    "alsoOn": "Pronađite nas i na",
+    "rights": "Sva prava pridržana."
+  },
+  "StickyCta": {
+    "cta": "Provjeri dostupnost"
+  }
+}

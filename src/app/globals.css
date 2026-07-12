@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  /* Mediterrane Palette: warmer Sand, Adria-Blau, Terrakotta */
+  --color-sand-50: #faf8f4;
+  --color-sand-100: #f4efe6;
+  --color-sand-200: #e9e0cf;
+  --color-sand-300: #d8c9ad;
+
+  --color-ink-900: #16232c;
+  --color-ink-700: #2e4250;
+  --color-ink-500: #587281;
+
+  --color-sea-50: #eef7fa;
+  --color-sea-100: #d9edf4;
+  --color-sea-500: #1d7898;
+  --color-sea-600: #14607c;
+  --color-sea-700: #0f4c63;
+  --color-sea-800: #0c3b4d;
+  --color-sea-900: #092d3b;
+
+  --color-terra-100: #f7e5db;
+  --color-terra-500: #c96f4a;
+  --color-terra-600: #b45c38;
+  --color-terra-700: #97482a;
+
+  --font-display: var(--font-fraunces), ui-serif, Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-sand-50);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-sea-100);
+  color: var(--color-sea-900);
+}
+
+/* Sektionen bekommen beim Anker-Sprung Luft unter dem Sticky-Header */
+section[id] {
+  scroll-margin-top: 5rem;
+}

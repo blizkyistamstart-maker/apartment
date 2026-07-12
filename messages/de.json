@@ -1,0 +1,245 @@
+{
+  "Meta": {
+    "title": "Apartment Ivanka · Strandnahe Dachgeschoss-Wohnung auf Čiovo bei Trogir",
+    "description": "Dachgeschoss-Ferienwohnung mit Meerblick-Balkon für bis zu 5 Gäste in Mastrinka auf Čiovo: 3 Gehminuten zum Strand, 3,5 km nach Trogir, 5 km zum Flughafen Split. Klimaanlage, WLAN, kostenloser Privatparkplatz. Direkt beim Gastgeber buchen — ohne Plattformgebühren."
+  },
+  "Header": {
+    "nav": {
+      "apartment": "Wohnung",
+      "gallery": "Galerie",
+      "availability": "Verfügbarkeit",
+      "location": "Lage",
+      "faq": "FAQ"
+    },
+    "cta": "Jetzt anfragen",
+    "languageLabel": "Sprache"
+  },
+  "Hero": {
+    "eyebrow": "Mastrinka, Čiovo · Trogir, Kroatien",
+    "headline": "Aufwachen mit Blick auf die Bucht von Trogir",
+    "subheadline": "Gemütliche Dachgeschoss-Wohnung für bis zu {guests} Gäste — nur 3 Gehminuten vom Strand von Mastrinka. Direkt bei uns buchen — persönlicher Service, bester Preis.",
+    "ctaPrimary": "Verfügbarkeit prüfen",
+    "ctaSecondary": "Wohnung ansehen",
+    "proof": "{count} Bewertungen auf Booking.com",
+    "imageAlt": "Blick vom Balkon des Apartments über rote Dächer und Zypressen auf die Bucht von Trogir",
+    "facts": {
+      "guests": "Bis zu {count} Gäste",
+      "bedrooms": "{count} Schlafzimmer",
+      "size": "{size} m²",
+      "floor": "Ganzes Dachgeschoss"
+    }
+  },
+  "Apartment": {
+    "eyebrow": "Die Wohnung",
+    "title": "Das ganze Dachgeschoss — nur für euch",
+    "intro": "70 m² unterm Dach, ein Balkon mit Meerblick und alles, was ihr für entspannte Tage an der Adria braucht.",
+    "body1": "Zwei Schlafzimmer — eines mit Doppelbett, eines mit Doppel- und Einzelbett — und dazu ein Schlafsofa im Wohnzimmer: Platz für bis zu fünf Gäste, ideal für Familien. In der Küchenzeile mit Esstisch stehen Kaffeemaschine und Wasserkocher bereit, und den Morgenkaffee trinkt ihr am besten auf dem Balkon mit Blick über die Bucht.",
+    "body2": "Die Wohnung liegt im Dachgeschoss mit den typischen gemütlichen Schrägen — sehr große Gäste sollten im zweiten Schlafzimmer den Kopf ein wenig einziehen, dafür kühlt die Klimaanlage im Sommer zuverlässig. Zum Kiesstrand geht ihr nur ein paar Minuten hinunter, ein Supermarkt liegt gleich um die Ecke, und euer kostenloser Parkplatz wartet direkt am Haus.",
+    "beds": {
+      "title": "So schlaft ihr",
+      "br1": "Schlafzimmer 1 · Doppelbett",
+      "br2": "Schlafzimmer 2 · Doppel- + Einzelbett",
+      "sofa": "Wohnzimmer · Schlafsofa"
+    },
+    "items": {
+      "beachfront": "Strand in 3 Gehminuten",
+      "seaView": "Balkon mit Meerblick",
+      "terrace": "Terrasse",
+      "gardenView": "Gartenblick",
+      "ac": "Klimaanlage",
+      "wifi": "Kostenloses WLAN",
+      "kitchen": "Küchenzeile mit Essbereich",
+      "coffee": "Kaffeemaschine & Wasserkocher",
+      "parking": "Kostenloser Privatparkplatz",
+      "tv": "TV",
+      "family": "Familienfreundlich",
+      "nonSmoking": "Nichtraucher-Wohnung"
+    }
+  },
+  "Gallery": {
+    "eyebrow": "Galerie",
+    "title": "Schaut euch um",
+    "captions": {
+      "balconyPanorama": "Panoramablick vom Balkon über die Bucht von Trogir",
+      "balconySea": "Überdachter Balkon mit Meerblick und Sonnenschirm",
+      "viewBay": "Blick über die Bucht auf Trogir und die Berge",
+      "sunset": "Sonnenuntergang über der Bucht von Trogir",
+      "sunsetBalcony": "Abendrot vom Balkon",
+      "living": "Wohnzimmer mit großem Ecksofa",
+      "livingOpen": "Offener Wohn- und Essbereich mit TV und Klimaanlage",
+      "dining": "Essbereich mit Holztisch und Sofa",
+      "diningTable": "Gedeckter Esstisch",
+      "kitchen": "Voll ausgestattete Küche",
+      "kitchenDetail": "Küchenzeile mit Herd und Backofen",
+      "hallwaySeaview": "Essbereich mit Blick zur Meerblick-Balkontür",
+      "bedroomSeaview": "Schlafzimmer mit Doppelbett und Meerblick",
+      "bedroomSunset": "Schlafzimmer mit zusätzlichem Schlafsofa",
+      "bedroomOrange": "Zweites Schlafzimmer mit Meerblick",
+      "bedroom2View": "Zweites Schlafzimmer mit Blick zur Bucht",
+      "bathroom": "Badezimmer in Marmoroptik",
+      "bathroomShower": "Bad mit Dusche und Waschbecken",
+      "hallway": "Flur mit Balkontür und Meerblick",
+      "entrance": "Hauseingang mit Bougainvillea und eigener Treppe"
+    },
+    "close": "Schließen",
+    "previous": "Vorheriges Bild",
+    "next": "Nächstes Bild"
+  },
+  "Video": {
+    "eyebrow": "Video",
+    "title": "Video-Rundgang",
+    "placeholder": "Wir bereiten gerade einen Video-Rundgang durch die Wohnung vor — schaut bald wieder vorbei."
+  },
+  "Availability": {
+    "eyebrow": "Verfügbarkeit",
+    "title": "Wann möchtet ihr kommen?",
+    "intro": "Der Kalender ist mit unserem Booking.com-Inserat synchronisiert — was ihr hier seht, ist aktuell.",
+    "legendFree": "Frei",
+    "legendBooked": "Belegt",
+    "mockNote": "Beispieldaten zur Vorschau — der Kalender zeigt echte Verfügbarkeiten, sobald er mit Booking.com verbunden ist.",
+    "syncNote": "Wird automatisch mit unserem Buchungskalender synchronisiert.",
+    "cta": "Zeitraum anfragen",
+    "prevMonth": "Vorheriger Monat",
+    "nextMonth": "Nächster Monat"
+  },
+  "Location": {
+    "eyebrow": "Lage",
+    "title": "Mastrinka auf Čiovo — das Meer vor der Tür, Trogir um die Ecke",
+    "intro": "Ruhige Lage über der Bucht auf der Insel Čiovo — mit Strand und Supermarkt in Gehweite.",
+    "body": "Die Wohnung liegt in Mastrinka auf der Insel Čiovo, direkt über der Bucht von Trogir. Zum Kiesstrand geht ihr nur wenige Minuten hinunter, und ein Supermarkt ist gleich in der Nähe. Trogirs UNESCO-Altstadt mit ihren Konobas und der Festung Kamerlengo erreicht ihr in ein paar Minuten mit dem Auto, und der Flughafen Split ist nur 5 km entfernt — perfekt für eine entspannte An- und Abreise.",
+    "mapTitle": "Karte mit der Lage der Wohnung in Mastrinka auf Čiovo",
+    "distances": {
+      "oldTown": { "label": "Altstadt Trogir (UNESCO)", "value": "3,5 km" },
+      "beach": { "label": "Strand Mastrinka", "value": "3 Gehminuten" },
+      "airport": { "label": "Flughafen Split (SPU)", "value": "5 km" },
+      "split": { "label": "Split", "value": "ca. 30 km" }
+    }
+  },
+  "Reviews": {
+    "eyebrow": "Gästebewertungen",
+    "title": "Das sagen unsere Gäste",
+    "intro": "Echte Bewertungen von Booking.com-Gästen, übersetzt aus der Originalsprache.",
+    "scoreLabel": "Sehr gut",
+    "countLabel": "{count} Bewertungen auf Booking.com",
+    "categories": {
+      "staff": "Personal",
+      "facilities": "Ausstattung",
+      "cleanliness": "Sauberkeit",
+      "comfort": "Komfort",
+      "value": "Preis-Leistung",
+      "location": "Lage"
+    },
+    "items": {
+      "r1": {
+        "quote": "Alles perfekt. Sehr sauber, gut ausgestattet, ganz nah am Strand und Einkaufsladen.",
+        "name": "Sarah",
+        "origin": "Deutschland"
+      },
+      "r2": {
+        "quote": "Wirklich tolle Unterkunft, nur ein paar Schritte vom Strand. Praktischer Parkplatz am Eingang, alles blitzsauber, die Gastgeberin superfreundlich und hilfsbereit. Gut ausgestattete Küche.",
+        "name": "Michele",
+        "origin": "Italien"
+      },
+      "r3": {
+        "quote": "Super — geräumig, sauber, eine wunderschöne Wohnung. Liebe, hilfsbereite Gastgeberin. Alles top.",
+        "name": "Jedličková",
+        "origin": "Tschechien"
+      },
+      "r4": {
+        "quote": "Ideal gelegen, etwa zehn Minuten zum Strand. Sehr freundliche und zuvorkommende Gastgeberin, erstklassige Ausstattung, bequeme Betten und eine herrliche Aussicht von der Terrasse.",
+        "name": "Robert",
+        "origin": "Deutschland"
+      },
+      "r5": {
+        "quote": "Sehr aufmerksame Gastgeberin, die schnell auf alle Fragen reagiert. Ruhige Lage mit Blick auf die Bucht, Parkplatz und gute Ausstattung.",
+        "name": "Mikhail",
+        "origin": "Finnland"
+      },
+      "r6": {
+        "quote": "Die Wohnung liegt ganz nah am Strand und die Aussicht ist so schön wie auf den Fotos. Supermarkt in der Nähe — praktisch für Ausflüge nach Trogir und Split genauso wie für Strandtage.",
+        "name": "Alberto",
+        "origin": "Spanien"
+      }
+    }
+  },
+  "Faq": {
+    "eyebrow": "Gut zu wissen",
+    "title": "Häufige Fragen",
+    "items": {
+      "checkin": {
+        "q": "Wann sind Check-in und Check-out?",
+        "a": "Check-in ist zwischen 15 und 18 Uhr, Check-out zwischen 8 und 10 Uhr. Wenn es der Belegungsplan zulässt, sind wir flexibel — fragt einfach."
+      },
+      "parking": {
+        "q": "Gibt es einen Parkplatz?",
+        "a": "Ja, es gibt einen kostenlosen Privatparkplatz am Haus."
+      },
+      "beach": {
+        "q": "Wie weit ist der Strand entfernt?",
+        "a": "Der Kiesstrand von Mastrinka ist nur etwa 3 Gehminuten entfernt — perfekt fürs Morgenbad. Weitere Strände auf Čiovo erreicht ihr bequem mit dem Auto."
+      },
+      "family": {
+        "q": "Ist die Wohnung für Kinder geeignet?",
+        "a": "Auf jeden Fall — Kinder sind herzlich willkommen. Babybetten oder Zustellbetten können wir allerdings nicht anbieten; neben den zwei Schlafzimmern gibt es aber ein Schlafsofa im Wohnzimmer."
+      },
+      "pets": {
+        "q": "Sind Haustiere erlaubt?",
+        "a": "Nein, Haustiere sind in der Wohnung leider nicht erlaubt."
+      },
+      "rules": {
+        "q": "Welche Hausregeln gelten?",
+        "a": "Die Wohnung ist eine Nichtraucher-Wohnung, Partys sind nicht erlaubt, und zwischen 22 und 8 Uhr gelten Ruhezeiten — die Nachbarn danken es euch."
+      },
+      "booking": {
+        "q": "Wie buche und bezahle ich?",
+        "a": "Schickt uns eine Anfrage mit eurem Wunschzeitraum. Wir bestätigen die Verfügbarkeit per E-Mail oder WhatsApp — ohne Plattformgebühren, und über die Website wird nichts bezahlt. Wer möchte, kann auch weiterhin über Booking.com buchen."
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "Kontakt",
+    "title": "Fragt euren Zeitraum an",
+    "intro": "Schreibt uns kurz — wir antworten meist innerhalb weniger Stunden.",
+    "whatsappGreeting": "Hallo! Ich interessiere mich für das Apartment Ivanka in Mastrinka bei Trogir.",
+    "whatsappHint": "Der schnellste Weg zu uns",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "directNote": "Bei Direktbuchung fallen keine Plattformgebühren an — für denselben Zeitraum können wir meist einen besseren Preis anbieten als Booking.com."
+  },
+  "Form": {
+    "name": "Euer Name",
+    "namePlaceholder": "Anna Meier",
+    "email": "E-Mail",
+    "arrival": "Anreise",
+    "departure": "Abreise",
+    "guests": "Gäste",
+    "message": "Nachricht (optional)",
+    "messagePlaceholder": "Fragen, Ankunftszeit, alles was wir wissen sollten…",
+    "submit": "Anfrage senden",
+    "privacyNote": "Wir verwenden eure Daten ausschließlich zur Beantwortung dieser Anfrage.",
+    "errors": {
+      "name": "Bitte gebt euren Namen ein.",
+      "email": "Bitte gebt eine gültige E-Mail-Adresse ein.",
+      "arrival": "Bitte wählt ein Anreisedatum.",
+      "departure": "Bitte wählt ein Abreisedatum.",
+      "dates": "Die Abreise muss nach der Anreise liegen.",
+      "guests": "Bitte wählt die Anzahl der Gäste.",
+      "generic": "Bitte prüft dieses Feld.",
+      "submit": "Etwas ist schiefgelaufen. Bitte versucht es erneut oder schreibt uns per WhatsApp."
+    },
+    "successTitle": "Danke — eure Anfrage ist unterwegs!",
+    "successBody": "Wir melden uns so schnell wie möglich, meist innerhalb weniger Stunden. Ihr wollt noch schneller eine Antwort?",
+    "successWhatsapp": "Auf WhatsApp weitermachen",
+    "whatsappSummary": "Hallo! Ich bin {name}. Ich habe über die Website eine Anfrage für {arrival} bis {departure} für {guests} Gäste geschickt."
+  },
+  "Footer": {
+    "tagline": "Eure Ferienwohnung am Strand von Mastrinka auf Čiovo — direkt beim Gastgeber buchen.",
+    "contact": "Kontakt",
+    "countryName": "Kroatien",
+    "alsoOn": "Ihr findet uns auch auf",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "StickyCta": {
+    "cta": "Verfügbarkeit prüfen"
+  }
+}

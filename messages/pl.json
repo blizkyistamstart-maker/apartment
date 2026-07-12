@@ -1,0 +1,245 @@
+{
+  "Meta": {
+    "title": "Apartment Ivanka · Apartament na poddaszu przy plaży na Čiovie, Trogir",
+    "description": "Apartament na poddaszu z balkonem z widokiem na morze dla maks. 5 gości w Mastrince na wyspie Čiovo: 3 minuty pieszo do plaży, 3,5 km do Trogiru, 5 km do lotniska w Splicie. Klimatyzacja, bezpłatne Wi-Fi, bezpłatny prywatny parking. Rezerwuj bezpośrednio u gospodarzy — bez prowizji platform."
+  },
+  "Header": {
+    "nav": {
+      "apartment": "Apartament",
+      "gallery": "Galeria",
+      "availability": "Dostępność",
+      "location": "Lokalizacja",
+      "faq": "FAQ"
+    },
+    "cta": "Wyślij zapytanie",
+    "languageLabel": "Język"
+  },
+  "Hero": {
+    "eyebrow": "Mastrinka, Čiovo · Trogir, Chorwacja",
+    "headline": "Obudź się z widokiem na zatokę Trogiru",
+    "subheadline": "Przytulny apartament na poddaszu dla maksymalnie {guests} gości, zaledwie 3 minuty pieszo od plaży w Mastrince. Rezerwuj bezpośrednio u nas — osobista obsługa, najlepsza cena.",
+    "ctaPrimary": "Sprawdź dostępność",
+    "ctaSecondary": "Zobacz apartament",
+    "proof": "{count} opinii na Booking.com",
+    "imageAlt": "Widok z balkonu apartamentu ponad czerwonymi dachami i cyprysami na zatokę Trogiru",
+    "facts": {
+      "guests": "Do {count} gości",
+      "bedrooms": "{count} sypialnie",
+      "size": "{size} m²",
+      "floor": "Całe poddasze"
+    }
+  },
+  "Apartment": {
+    "eyebrow": "Apartament",
+    "title": "Całe poddasze — tylko dla Was",
+    "intro": "70 m² pod dachem, balkon z widokiem na morze i wszystko, czego potrzeba na spokojne dni nad Adriatykiem.",
+    "body1": "Dwie sypialnie — jedna z łóżkiem podwójnym, druga z podwójnym i pojedynczym — oraz rozkładana sofa w salonie: miejsce dla maksymalnie pięciu gości, idealnie dla rodzin. W aneksie kuchennym ze stołem czekają ekspres do kawy i czajnik, a poranną kawę najlepiej wypić na balkonie z widokiem na zatokę.",
+    "body2": "Apartament znajduje się na poddaszu z typowymi przytulnymi skosami — bardzo wysocy goście powinni uważać na głowę w drugiej sypialni, za to klimatyzacja latem przyjemnie chłodzi. Na żwirową plażę schodzi się pieszo w kilka minut, sklep jest tuż za rogiem, a bezpłatne miejsce parkingowe czeka przy domu.",
+    "beds": {
+      "title": "Miejsca do spania",
+      "br1": "Sypialnia 1 · łóżko podwójne",
+      "br2": "Sypialnia 2 · łóżko podwójne + pojedyncze",
+      "sofa": "Salon · rozkładana sofa"
+    },
+    "items": {
+      "beachfront": "Plaża 3 minuty pieszo",
+      "seaView": "Balkon z widokiem na morze",
+      "terrace": "Taras",
+      "gardenView": "Widok na ogród",
+      "ac": "Klimatyzacja",
+      "wifi": "Bezpłatne Wi-Fi",
+      "kitchen": "Aneks kuchenny z jadalnią",
+      "coffee": "Ekspres do kawy i czajnik",
+      "parking": "Bezpłatny prywatny parking",
+      "tv": "TV",
+      "family": "Przyjazny rodzinom",
+      "nonSmoking": "Dla niepalących"
+    }
+  },
+  "Gallery": {
+    "eyebrow": "Galeria",
+    "title": "Rozejrzyj się",
+    "captions": {
+      "balconyPanorama": "Panoramiczny widok z balkonu na zatokę Trogiru",
+      "balconySea": "Zadaszony balkon z widokiem na morze i parasolem",
+      "viewBay": "Widok na zatokę w stronę Trogiru i gór",
+      "sunset": "Zachód słońca nad zatoką Trogiru",
+      "sunsetBalcony": "Wieczorna łuna z balkonu",
+      "living": "Salon z dużym narożnikiem",
+      "livingOpen": "Otwarty salon z jadalnią, telewizorem i klimatyzacją",
+      "dining": "Jadalnia z drewnianym stołem i sofą",
+      "diningTable": "Nakryty stół w jadalni",
+      "kitchen": "W pełni wyposażona kuchnia",
+      "kitchenDetail": "Blat kuchenny z kuchenką i piekarnikiem",
+      "hallwaySeaview": "Jadalnia z widokiem na drzwi balkonowe i morze",
+      "bedroomSeaview": "Sypialnia z łóżkiem podwójnym i widokiem na morze",
+      "bedroomSunset": "Sypialnia z dodatkową sofą rozkładaną",
+      "bedroomOrange": "Druga sypialnia z widokiem na morze",
+      "bedroom2View": "Druga sypialnia z widokiem na zatokę",
+      "bathroom": "Łazienka w wyglądzie marmuru",
+      "bathroomShower": "Łazienka z prysznicem i umywalką",
+      "hallway": "Korytarz z drzwiami balkonowymi i widokiem na morze",
+      "entrance": "Wejście do domu z bugenwillą i własnymi schodami"
+    },
+    "close": "Zamknij",
+    "previous": "Poprzednie zdjęcie",
+    "next": "Następne zdjęcie"
+  },
+  "Video": {
+    "eyebrow": "Wideo",
+    "title": "Wirtualny spacer",
+    "placeholder": "Przygotowujemy wideo z apartamentu — zajrzyjcie tu wkrótce."
+  },
+  "Availability": {
+    "eyebrow": "Dostępność",
+    "title": "Kiedy chcielibyście przyjechać?",
+    "intro": "Kalendarz jest zsynchronizowany z naszą ofertą na Booking.com — to, co tu widzicie, jest aktualne.",
+    "legendFree": "Wolne",
+    "legendBooked": "Zajęte",
+    "mockNote": "Dane przykładowe — kalendarz pokaże prawdziwą dostępność po połączeniu z Booking.com.",
+    "syncNote": "Synchronizowany automatycznie z naszym kalendarzem rezerwacji.",
+    "cta": "Zapytaj o termin",
+    "prevMonth": "Poprzedni miesiąc",
+    "nextMonth": "Następny miesiąc"
+  },
+  "Location": {
+    "eyebrow": "Lokalizacja",
+    "title": "Mastrinka na Čiovie — morze za progiem, Trogir za rogiem",
+    "intro": "Spokojna okolica nad zatoką na wyspie Čiovo — z plażą i sklepem w zasięgu spaceru.",
+    "body": "Apartament znajduje się w Mastrince na wyspie Čiovo, tuż nad zatoką Trogiru. Na żwirową plażę schodzi się pieszo w kilka minut, a sklep jest w pobliżu. Do starówki Trogiru z listy UNESCO, z konobami i twierdzą Kamerlengo, dojedziecie autem w kilka minut, a lotnisko w Splicie jest oddalone tylko o 5 km — idealnie na bezstresowy przyjazd i wyjazd.",
+    "mapTitle": "Mapa z lokalizacją apartamentu w Mastrince na wyspie Čiovo",
+    "distances": {
+      "oldTown": { "label": "Starówka Trogiru (UNESCO)", "value": "3,5 km" },
+      "beach": { "label": "Plaża Mastrinka", "value": "3 minuty pieszo" },
+      "airport": { "label": "Lotnisko Split (SPU)", "value": "5 km" },
+      "split": { "label": "Split", "value": "ok. 30 km" }
+    }
+  },
+  "Reviews": {
+    "eyebrow": "Opinie gości",
+    "title": "Co mówią nasi goście",
+    "intro": "Prawdziwe opinie gości z Booking.com, przetłumaczone z języka oryginału.",
+    "scoreLabel": "Bardzo dobrze",
+    "countLabel": "{count} opinii na Booking.com",
+    "categories": {
+      "staff": "Obsługa",
+      "facilities": "Udogodnienia",
+      "cleanliness": "Czystość",
+      "comfort": "Komfort",
+      "value": "Stosunek jakości do ceny",
+      "location": "Lokalizacja"
+    },
+    "items": {
+      "r1": {
+        "quote": "Wszystko idealne. Bardzo czysto, dobre wyposażenie, tuż przy plaży i sklepie.",
+        "name": "Sarah",
+        "origin": "Niemcy"
+      },
+      "r2": {
+        "quote": "Naprawdę świetny obiekt, dwa kroki od plaży. Wygodny parking przy wejściu, nieskazitelnie czysto, a gospodyni niezwykle miła i pomocna. Dobrze wyposażona kuchnia.",
+        "name": "Michele",
+        "origin": "Włochy"
+      },
+      "r3": {
+        "quote": "Super — przestronny, czysty, piękny apartament. Miła, pomocna właścicielka. Wszystko OK.",
+        "name": "Jedličková",
+        "origin": "Czechy"
+      },
+      "r4": {
+        "quote": "Idealna lokalizacja, około dziesięciu minut od plaży. Bardzo miła i uczynna gospodyni, pierwszorzędne wyposażenie, wygodne łóżka i wspaniały widok z tarasu.",
+        "name": "Robert",
+        "origin": "Niemcy"
+      },
+      "r5": {
+        "quote": "Bardzo pomocna i uważna gospodyni. Spokojna okolica z widokiem na zatokę, parking i wyposażenie dobrej jakości.",
+        "name": "Mikhail",
+        "origin": "Finlandia"
+      },
+      "r6": {
+        "quote": "Apartament jest bardzo blisko plaży, a widoki są tak piękne jak na zdjęciach. Sklep w pobliżu — wygodnie zarówno na wycieczki do Trogiru i Splitu, jak i na plażowanie.",
+        "name": "Alberto",
+        "origin": "Hiszpania"
+      }
+    }
+  },
+  "Faq": {
+    "eyebrow": "Warto wiedzieć",
+    "title": "Najczęstsze pytania",
+    "items": {
+      "checkin": {
+        "q": "W jakich godzinach jest zameldowanie i wymeldowanie?",
+        "a": "Zameldowanie między 15:00 a 18:00, wymeldowanie między 8:00 a 10:00. Jeśli grafik na to pozwala, jesteśmy elastyczni — wystarczy zapytać."
+      },
+      "parking": {
+        "q": "Czy jest parking?",
+        "a": "Tak, przy domu jest bezpłatny prywatny parking."
+      },
+      "beach": {
+        "q": "Jak daleko jest plaża?",
+        "a": "Żwirowa plaża w Mastrince jest tylko około 3 minut pieszo — idealnie na poranną kąpiel. Do kolejnych plaż na Čiovie łatwo dojechać autem."
+      },
+      "family": {
+        "q": "Czy apartament nadaje się dla dzieci?",
+        "a": "Jak najbardziej — dzieci są mile widziane. Nie zapewniamy łóżeczek dziecięcych ani dostawek, ale oprócz dwóch sypialni w salonie jest rozkładana sofa."
+      },
+      "pets": {
+        "q": "Czy zwierzęta są dozwolone?",
+        "a": "Nie, niestety zwierzęta domowe nie są dozwolone w apartamencie."
+      },
+      "rules": {
+        "q": "Jakie zasady obowiązują w domu?",
+        "a": "Apartament jest dla niepalących, imprezy są zabronione, a cisza nocna obowiązuje od 22:00 do 8:00 — sąsiedzi będą wdzięczni."
+      },
+      "booking": {
+        "q": "Jak zarezerwować i zapłacić?",
+        "a": "Wyślijcie nam zapytanie z terminem. Dostępność potwierdzamy e-mailem lub WhatsAppem — bez prowizji platform, przez stronę nic się nie płaci. Można też oczywiście rezerwować przez Booking.com."
+      }
+    }
+  },
+  "Contact": {
+    "eyebrow": "Kontakt",
+    "title": "Zapytaj o swój termin",
+    "intro": "Napiszcie do nas — zwykle odpowiadamy w ciągu kilku godzin.",
+    "whatsappGreeting": "Dzień dobry! Interesuje mnie Apartment Ivanka w Mastrince koło Trogiru.",
+    "whatsappHint": "Najszybszy sposób kontaktu",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "directNote": "Rezerwacja bezpośrednia oznacza brak prowizji platform — za ten sam termin zwykle możemy zaproponować lepszą cenę niż Booking.com."
+  },
+  "Form": {
+    "name": "Imię i nazwisko",
+    "namePlaceholder": "Anna Kowalska",
+    "email": "E-mail",
+    "arrival": "Przyjazd",
+    "departure": "Wyjazd",
+    "guests": "Goście",
+    "message": "Wiadomość (opcjonalnie)",
+    "messagePlaceholder": "Pytania, godzina przyjazdu, wszystko, co powinniśmy wiedzieć…",
+    "submit": "Wyślij zapytanie",
+    "privacyNote": "Waszych danych używamy wyłącznie do odpowiedzi na to zapytanie.",
+    "errors": {
+      "name": "Proszę podać imię i nazwisko.",
+      "email": "Proszę podać poprawny adres e-mail.",
+      "arrival": "Proszę wybrać datę przyjazdu.",
+      "departure": "Proszę wybrać datę wyjazdu.",
+      "dates": "Wyjazd musi być po przyjeździe.",
+      "guests": "Proszę wybrać liczbę gości.",
+      "generic": "Proszę sprawdzić to pole.",
+      "submit": "Coś poszło nie tak. Spróbujcie ponownie lub napiszcie do nas na WhatsAppie."
+    },
+    "successTitle": "Dziękujemy — zapytanie zostało wysłane!",
+    "successBody": "Odezwiemy się najszybciej, jak to możliwe, zwykle w ciągu kilku godzin. Chcecie jeszcze szybszej odpowiedzi?",
+    "successWhatsapp": "Kontynuuj na WhatsAppie",
+    "whatsappSummary": "Dzień dobry! Nazywam się {name}. Wysłałem/am przez stronę zapytanie o termin od {arrival} do {departure}, {guests} gości."
+  },
+  "Footer": {
+    "tagline": "Wasz apartament przy plaży w Mastrince na wyspie Čiovo — rezerwujcie bezpośrednio u gospodarzy.",
+    "contact": "Kontakt",
+    "countryName": "Chorwacja",
+    "alsoOn": "Znajdziecie nas też na",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "StickyCta": {
+    "cta": "Sprawdź dostępność"
+  }
+}
