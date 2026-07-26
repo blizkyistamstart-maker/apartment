@@ -29,6 +29,42 @@
       "floor": "Całe poddasze"
     }
   },
+  "Highlights": {
+    "eyebrow": "Najważniejsze",
+    "title": "Najlepsze najpierw",
+    "intro": "Cztery pokoje, cztery pierwsze wrażenia — salon, kuchnia, sypialnie i łazienka.",
+    "items": {
+      "living": {
+        "name": "Salon",
+        "text": "Duża narożna sofa, otwarty salon, miejsca dla wszystkich — gdzie każdy dzień na plaży kończy się doskonale."
+      },
+      "kitchen": {
+        "name": "Kuchnia",
+        "text": "Jasna, biała, w pełni wyposażona — od ekspresu do piekarnika, wszystko gotowe.",
+        "captions": {
+          "kitchenHero": "W pełni wyposażona kuchnia z kuchenką gazową",
+          "kitchenDetail": "Aneks kuchenny w szczegółach"
+        }
+      },
+      "sleeping": {
+        "name": "Sypialnie",
+        "text": "Dwie spokojne sypialnie pod dachem — jedna z widokiem na morze, jedna z widokiem nad dachami na zatokę.",
+        "captions": {
+          "bedroom1Hero": "Sypialnia 1 z łóżkiem podwójnym i widokiem na morze",
+          "bedroom2Hero": "Sypialnia 2 z drewnianym łóżkiem",
+          "bedroomViewDetail": "Widok, który czeka Was każdego ranka"
+        }
+      },
+      "bath": {
+        "name": "Łazienka",
+        "text": "Nowoczesna, marmurowy wygląd, z kabiną prysznicową — czystym i gotowym na kolejny dzień.",
+        "captions": {
+          "bathroomHero": "Łazienka w stylu marmuru",
+          "bathroomDetail": "Prysznic i umywalka w szczegółach"
+        }
+      }
+    }
+  },
   "Apartment": {
     "eyebrow": "Apartament",
     "title": "Całe poddasze — tylko dla Was",

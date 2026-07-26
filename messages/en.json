@@ -29,6 +29,42 @@
       "floor": "Entire top floor"
     }
   },
+  "Highlights": {
+    "eyebrow": "Highlights",
+    "title": "The best rooms first",
+    "intro": "Four rooms, four first impressions — living room, kitchen, bedrooms and bathroom.",
+    "items": {
+      "living": {
+        "name": "Living room",
+        "text": "Big corner sofa, open living space, room for everyone — where every beach day ends perfectly."
+      },
+      "kitchen": {
+        "name": "Kitchen",
+        "text": "Bright, white, fully equipped — from coffee machine to oven, everything is ready.",
+        "captions": {
+          "kitchenHero": "Fully equipped kitchen with gas hob",
+          "kitchenDetail": "Kitchenette in detail"
+        }
+      },
+      "sleeping": {
+        "name": "Bedrooms",
+        "text": "Two quiet rooms under the roof — one with sea view, one overlooking the rooftops to the bay.",
+        "captions": {
+          "bedroom1Hero": "Bedroom 1 with double bed and sea view",
+          "bedroom2Hero": "Bedroom 2 with wooden bed",
+          "bedroomViewDetail": "The view that awaits you every morning"
+        }
+      },
+      "bath": {
+        "name": "Bathroom",
+        "text": "Modern marble-look, with walk-in shower — fresh and ready for the next day.",
+        "captions": {
+          "bathroomHero": "Bathroom in marble look",
+          "bathroomDetail": "Shower and washbasin in detail"
+        }
+      }
+    }
+  },
   "Apartment": {
     "eyebrow": "The apartment",
     "title": "The whole top floor, just for you",

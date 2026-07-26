@@ -29,6 +29,42 @@
       "floor": "Ganzes Dachgeschoss"
     }
   },
+  "Highlights": {
+    "eyebrow": "Highlights",
+    "title": "Das Beste zuerst",
+    "intro": "Vier Räume, vier erste Eindrücke — Wohnzimmer, Küche, Schlafzimmer und Bad.",
+    "items": {
+      "living": {
+        "name": "Wohnzimmer",
+        "text": "Großes Ecksofa, offener Wohnbereich, Platz für alle — hier endet jeder Strandtag perfekt."
+      },
+      "kitchen": {
+        "name": "Küche",
+        "text": "Hell, weiß, komplett ausgestattet — von der Kaffeemaschine bis zum Backofen alles bereit.",
+        "captions": {
+          "kitchenHero": "Voll ausgestattete Küche mit Gasherd",
+          "kitchenDetail": "Küchenzeile im Detail"
+        }
+      },
+      "sleeping": {
+        "name": "Schlafzimmer",
+        "text": "Zwei ruhige Zimmer unterm Dach — eins mit Meerblick, eins mit Blick über die Dächer zur Bucht.",
+        "captions": {
+          "bedroom1Hero": "Schlafzimmer 1 mit Doppelbett und Meerblick",
+          "bedroom2Hero": "Schlafzimmer 2 mit Holzbett",
+          "bedroomViewDetail": "Der Blick, der euch morgens erwartet"
+        }
+      },
+      "bath": {
+        "name": "Bad",
+        "text": "Modern in Marmoroptik, mit ebenerdiger Dusche — frisch und schnell bereit für den nächsten Tag.",
+        "captions": {
+          "bathroomHero": "Badezimmer in Marmoroptik",
+          "bathroomDetail": "Dusche und Waschbecken im Detail"
+        }
+      }
+    }
+  },
   "Apartment": {
     "eyebrow": "Die Wohnung",
     "title": "Das ganze Dachgeschoss — nur für euch",

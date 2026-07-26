@@ -29,6 +29,42 @@
       "floor": "Cijelo potkrovlje"
     }
   },
+  "Highlights": {
+    "eyebrow": "Najvažnije",
+    "title": "Najbolje prvo",
+    "intro": "Četiri sobe, četiri prva dojma — dnevni boravak, kuhinja, spavaće sobe i kupaonica.",
+    "items": {
+      "living": {
+        "name": "Dnevni boravak",
+        "text": "Velika kutna garnitura, otvoren prostor, mjesta za sve — gdje svaki dan na plaži završi savršeno."
+      },
+      "kitchen": {
+        "name": "Kuhinja",
+        "text": "Svijetla, bijela, potpuno opremljena — od aparata za kavu do pećnice, sve je spremno.",
+        "captions": {
+          "kitchenHero": "Potpuno opremljena kuhinja s plinskim štednjukom",
+          "kitchenDetail": "Detalj kuhinje"
+        }
+      },
+      "sleeping": {
+        "name": "Spavaće sobe",
+        "text": "Dvije mirne sobe pod krovom — jedna s pogledom na more, jedna s pogledom preko krovova na zaljev.",
+        "captions": {
+          "bedroom1Hero": "Spavaća soba 1 s bračnim krevetom i pogledom na more",
+          "bedroom2Hero": "Spavaća soba 2 s drvenim krevetom",
+          "bedroomViewDetail": "Pogled koji vas čeka svakog jutra"
+        }
+      },
+      "bath": {
+        "name": "Kupaonica",
+        "text": "Moderna mramornog izgleda, s tuš kuadom — čisti i spremni za sljedeći dan.",
+        "captions": {
+          "bathroomHero": "Kupaonica mramornog izgleda",
+          "bathroomDetail": "Tuš i umivaonik u detaljima"
+        }
+      }
+    }
+  },
   "Apartment": {
     "eyebrow": "Apartman",
     "title": "Cijelo potkrovlje — samo za vas",

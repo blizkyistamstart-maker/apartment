@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
+import { Highlights } from "@/components/highlights";
 import { Apartment } from "@/components/apartment";
 import { Gallery } from "@/components/gallery";
 // Video-Sektion vorerst ausgeblendet — reaktivieren, sobald ein Rundgang-Video existiert.
@@ -71,6 +72,7 @@ export default async function HomePage({
       <Header />
       <main>
         <Hero />
+        <Highlights />
         <Apartment />
         <Gallery />
         {/* Video-Sektion vorerst ausgeblendet — reaktivieren, sobald ein Rundgang-Video existiert */}
