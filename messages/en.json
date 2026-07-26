@@ -34,9 +34,9 @@
     "title": "The best rooms first",
     "intro": "Four rooms, four first impressions — living room, kitchen, bedrooms and bathroom.",
     "items": {
-      "living": {
-        "name": "Living room",
-        "text": "Big corner sofa, open living space, room for everyone — where every beach day ends perfectly."
+      "seaView": {
+        "name": "The first view",
+        "text": "From the balcony over the bay — the sea is always in sight. This is where your holiday begins."
       },
       "kitchen": {
         "name": "Kitchen",

@@ -34,9 +34,9 @@
     "title": "Najlepsze najpierw",
     "intro": "Cztery pokoje, cztery pierwsze wrażenia — salon, kuchnia, sypialnie i łazienka.",
     "items": {
-      "living": {
-        "name": "Salon",
-        "text": "Duża narożna sofa, otwarty salon, miejsca dla wszystkich — gdzie każdy dzień na plaży kończy się doskonale."
+      "seaView": {
+        "name": "Pierwszy widok",
+        "text": "Z balkonu nad zatokę — morze jest zawsze w zasięgu wzroku. Tu zaczyna się Wasz urlop."
       },
       "kitchen": {
         "name": "Kuchnia",

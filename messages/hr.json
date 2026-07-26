@@ -34,9 +34,9 @@
     "title": "Najbolje prvo",
     "intro": "Četiri sobe, četiri prva dojma — dnevni boravak, kuhinja, spavaće sobe i kupaonica.",
     "items": {
-      "living": {
-        "name": "Dnevni boravak",
-        "text": "Velika kutna garnitura, otvoren prostor, mjesta za sve — gdje svaki dan na plaži završi savršeno."
+      "seaView": {
+        "name": "Prvi pogled",
+        "text": "Sa balkona preko zaljeva — more je uvijek u vidokrugu. Ovdje počinje vaš odmor."
       },
       "kitchen": {
         "name": "Kuhinja",

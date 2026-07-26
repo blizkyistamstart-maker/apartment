@@ -34,9 +34,9 @@
     "title": "Das Beste zuerst",
     "intro": "Vier Räume, vier erste Eindrücke — Wohnzimmer, Küche, Schlafzimmer und Bad.",
     "items": {
-      "living": {
-        "name": "Wohnzimmer",
-        "text": "Großes Ecksofa, offener Wohnbereich, Platz für alle — hier endet jeder Strandtag perfekt."
+      "seaView": {
+        "name": "Der erste Blick",
+        "text": "Vom Balkon über die Bucht — das Meer ist immer im Blick. Hier beginnt der Urlaub."
       },
       "kitchen": {
         "name": "Küche",
