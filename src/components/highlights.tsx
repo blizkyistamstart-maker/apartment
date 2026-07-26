@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Section } from "./section";
-import bedroom2View from "../../public/images/bedroom2-view.jpg";
+import sunset from "../../public/images/sunset.jpg";
 import kitchen from "../../public/images/kitchen.jpg";
 import kitchenDetail from "../../public/images/kitchen-detail.jpg";
 import bedroomOrange from "../../public/images/bedroom-orange.jpg";
@@ -11,12 +11,12 @@ import bathroomShower from "../../public/images/bathroom-shower.jpg";
 
 type HighlightItem = {
   key: string;
-  singleImage?: typeof bedroom2View;
+  singleImage?: typeof sunset;
   gridImages?: Array<{ src: typeof kitchen; key: string }>;
 };
 
 const items: HighlightItem[] = [
-  { key: "seaView", singleImage: bedroom2View },
+  { key: "sunset", singleImage: sunset },
   {
     key: "kitchen",
     gridImages: [

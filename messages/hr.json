@@ -34,9 +34,9 @@
     "title": "Najbolje prvo",
     "intro": "Četiri sobe, četiri prva dojma — dnevni boravak, kuhinja, spavaće sobe i kupaonica.",
     "items": {
-      "seaView": {
-        "name": "Prvi pogled",
-        "text": "Sa balkona preko zaljeva — more je uvijek u vidokrugu. Ovdje počinje vaš odmor."
+      "sunset": {
+        "name": "Zalazak sunca",
+        "text": "Svake večeri ovaj pogled na zaljev Trogira — vrhunac svakog dana na balkonu."
       },
       "kitchen": {
         "name": "Kuhinja",

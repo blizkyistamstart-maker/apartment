@@ -34,9 +34,9 @@
     "title": "Das Beste zuerst",
     "intro": "Vier Räume, vier erste Eindrücke — Wohnzimmer, Küche, Schlafzimmer und Bad.",
     "items": {
-      "seaView": {
-        "name": "Der erste Blick",
-        "text": "Vom Balkon über die Bucht — das Meer ist immer im Blick. Hier beginnt der Urlaub."
+      "sunset": {
+        "name": "Sonnenuntergang",
+        "text": "Jeden Abend dieser Blick über die Bucht von Trogir — das Highlight eines jeden Tages auf dem Balkon."
       },
       "kitchen": {
         "name": "Küche",

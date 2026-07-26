@@ -34,9 +34,9 @@
     "title": "The best rooms first",
     "intro": "Four rooms, four first impressions — living room, kitchen, bedrooms and bathroom.",
     "items": {
-      "seaView": {
-        "name": "The first view",
-        "text": "From the balcony over the bay — the sea is always in sight. This is where your holiday begins."
+      "sunset": {
+        "name": "Sunset",
+        "text": "Every evening this view over the bay of Trogir — the highlight of every day on the balcony."
       },
       "kitchen": {
         "name": "Kitchen",
