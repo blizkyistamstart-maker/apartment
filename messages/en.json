@@ -1,6 +1,6 @@
 {
   "Meta": {
-    "title": "Apartment Ivanka · Top-floor apartment near the beach on Čiovo, Trogir",
+    "title": "Apartment Dani · Top-floor apartment near the beach on Čiovo, Trogir",
     "description": "Top-floor holiday apartment with a sea-view balcony for up to 5 guests in Mastrinka on Čiovo island: a 3-minute walk to the beach, 3.5 km from Trogir, 5 km from Split Airport. Air conditioning, free Wi-Fi, free private parking. Book directly with the hosts — no platform fees."
   },
   "Header": {
@@ -16,12 +16,12 @@
   },
   "Hero": {
     "eyebrow": "Mastrinka, Čiovo · Trogir, Croatia",
-    "headline": "Wake up to the bay of Trogir",
+    "headline": "Wake up in Mastrinka, overlooking the bay of Trogir",
     "subheadline": "A cosy top-floor apartment for up to {guests} guests, just a 3-minute walk from Mastrinka beach. Book directly with us — personal service, best price.",
     "ctaPrimary": "Check availability",
     "ctaSecondary": "See the apartment",
     "proof": "{count} reviews on Booking.com",
-    "imageAlt": "View from the apartment's balcony over red rooftops and cypresses to the bay of Trogir",
+    "imageAlt": "Sunset over the bay of Trogir, seen from the apartment's balcony in Mastrinka",
     "facts": {
       "guests": "Up to {count} guests",
       "bedrooms": "{count} bedrooms",
@@ -52,7 +52,7 @@
         "captions": {
           "bedroom1Hero": "Bedroom 1 with double bed and sea view",
           "bedroom2Hero": "Bedroom 2 with wooden bed",
-          "bedroomViewDetail": "The view that awaits you every morning"
+          "bedroomViewDetail": "Second bedroom with sofa bed under the roof"
         }
       },
       "bath": {
@@ -111,7 +111,7 @@
       "bedroomSeaview": "Bedroom with double bed and sea view",
       "bedroomSunset": "Bedroom with an additional sofa bed",
       "bedroomOrange": "Second bedroom with sea view",
-      "bedroom2View": "Second bedroom with a view of the bay",
+      "bedroom2View": "Second bedroom with sofa bed under the roof",
       "bathroom": "Marble-look bathroom",
       "bathroomShower": "Bathroom with shower and washbasin",
       "hallway": "Hallway with balcony door and sea view",
@@ -236,7 +236,7 @@
     "eyebrow": "Contact",
     "title": "Ask about your dates",
     "intro": "Send us a quick message — we usually reply within a few hours.",
-    "whatsappGreeting": "Hello! I am interested in Apartment Ivanka in Mastrinka near Trogir.",
+    "whatsappGreeting": "Hello! I am interested in Apartment Dani in Mastrinka near Trogir.",
     "whatsappHint": "The fastest way to reach us",
     "emailLabel": "E-mail",
     "phoneLabel": "Phone",

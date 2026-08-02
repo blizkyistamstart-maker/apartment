@@ -1,6 +1,6 @@
 {
   "Meta": {
-    "title": "Apartment Ivanka · Apartament na poddaszu przy plaży na Čiovie, Trogir",
+    "title": "Apartment Dani · Apartament na poddaszu przy plaży na Čiovie, Trogir",
     "description": "Apartament na poddaszu z balkonem z widokiem na morze dla maks. 5 gości w Mastrince na wyspie Čiovo: 3 minuty pieszo do plaży, 3,5 km do Trogiru, 5 km do lotniska w Splicie. Klimatyzacja, bezpłatne Wi-Fi, bezpłatny prywatny parking. Rezerwuj bezpośrednio u gospodarzy — bez prowizji platform."
   },
   "Header": {
@@ -16,12 +16,12 @@
   },
   "Hero": {
     "eyebrow": "Mastrinka, Čiovo · Trogir, Chorwacja",
-    "headline": "Obudź się z widokiem na zatokę Trogiru",
+    "headline": "Obudź się w Mastrince, z widokiem na zatokę Trogiru",
     "subheadline": "Przytulny apartament na poddaszu dla maksymalnie {guests} gości, zaledwie 3 minuty pieszo od plaży w Mastrince. Rezerwuj bezpośrednio u nas — osobista obsługa, najlepsza cena.",
     "ctaPrimary": "Sprawdź dostępność",
     "ctaSecondary": "Zobacz apartament",
     "proof": "{count} opinii na Booking.com",
-    "imageAlt": "Widok z balkonu apartamentu ponad czerwonymi dachami i cyprysami na zatokę Trogiru",
+    "imageAlt": "Zachód słońca nad zatoką Trogiru, widok z balkonu apartamentu w Mastrince",
     "facts": {
       "guests": "Do {count} gości",
       "bedrooms": "{count} sypialnie",
@@ -52,7 +52,7 @@
         "captions": {
           "bedroom1Hero": "Sypialnia 1 z łóżkiem podwójnym i widokiem na morze",
           "bedroom2Hero": "Sypialnia 2 z drewnianym łóżkiem",
-          "bedroomViewDetail": "Widok, który czeka Was każdego ranka"
+          "bedroomViewDetail": "Druga sypialnia z rozkładaną sofą pod skosem dachu"
         }
       },
       "bath": {
@@ -111,7 +111,7 @@
       "bedroomSeaview": "Sypialnia z łóżkiem podwójnym i widokiem na morze",
       "bedroomSunset": "Sypialnia z dodatkową sofą rozkładaną",
       "bedroomOrange": "Druga sypialnia z widokiem na morze",
-      "bedroom2View": "Druga sypialnia z widokiem na zatokę",
+      "bedroom2View": "Druga sypialnia z rozkładaną sofą pod skosem dachu",
       "bathroom": "Łazienka w wyglądzie marmuru",
       "bathroomShower": "Łazienka z prysznicem i umywalką",
       "hallway": "Korytarz z drzwiami balkonowymi i widokiem na morze",
@@ -236,7 +236,7 @@
     "eyebrow": "Kontakt",
     "title": "Zapytaj o swój termin",
     "intro": "Napiszcie do nas — zwykle odpowiadamy w ciągu kilku godzin.",
-    "whatsappGreeting": "Dzień dobry! Interesuje mnie Apartment Ivanka w Mastrince koło Trogiru.",
+    "whatsappGreeting": "Dzień dobry! Interesuje mnie Apartment Dani w Mastrince koło Trogiru.",
     "whatsappHint": "Najszybszy sposób kontaktu",
     "emailLabel": "E-mail",
     "phoneLabel": "Telefon",

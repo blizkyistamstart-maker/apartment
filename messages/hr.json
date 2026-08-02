@@ -1,6 +1,6 @@
 {
   "Meta": {
-    "title": "Apartment Ivanka · Apartman u potkrovlju uz plažu na Čiovu, Trogir",
+    "title": "Apartment Dani · Apartman u potkrovlju uz plažu na Čiovu, Trogir",
     "description": "Apartman u potkrovlju s balkonom i pogledom na more za do 5 gostiju u Mastrinki na Čiovu: 3 minute hoda do plaže, 3,5 km od Trogira, 5 km od zračne luke Split. Klima, besplatan Wi-Fi, besplatan privatni parking. Rezervirajte izravno kod domaćina — bez naknada platformi."
   },
   "Header": {
@@ -16,12 +16,12 @@
   },
   "Hero": {
     "eyebrow": "Mastrinka, Čiovo · Trogir, Hrvatska",
-    "headline": "Probudite se uz pogled na trogirski zaljev",
+    "headline": "Probudite se u Mastrinki, s pogledom na trogirski zaljev",
     "subheadline": "Ugodan apartman u potkrovlju za do {guests} gostiju, samo 3 minute hoda od plaže u Mastrinki. Rezervirajte izravno kod nas — osobna usluga, najbolja cijena.",
     "ctaPrimary": "Provjeri dostupnost",
     "ctaSecondary": "Pogledaj apartman",
     "proof": "{count} recenzija na Booking.comu",
-    "imageAlt": "Pogled s balkona apartmana preko crvenih krovova i čempresa na trogirski zaljev",
+    "imageAlt": "Zalazak sunca nad trogirskim zaljevom, pogled s balkona apartmana u Mastrinki",
     "facts": {
       "guests": "Do {count} gostiju",
       "bedrooms": "{count} spavaće sobe",
@@ -52,7 +52,7 @@
         "captions": {
           "bedroom1Hero": "Spavaća soba 1 s bračnim krevetom i pogledom na more",
           "bedroom2Hero": "Spavaća soba 2 s drvenim krevetom",
-          "bedroomViewDetail": "Pogled koji vas čeka svakog jutra"
+          "bedroomViewDetail": "Druga spavaća soba s kaučem na razvlačenje pod krovom"
         }
       },
       "bath": {
@@ -111,7 +111,7 @@
       "bedroomSeaview": "Spavaća soba s bračnim krevetom i pogledom na more",
       "bedroomSunset": "Spavaća soba s dodatnom sofom na razvlačenje",
       "bedroomOrange": "Druga spavaća soba s pogledom na more",
-      "bedroom2View": "Druga spavaća soba s pogledom na zaljev",
+      "bedroom2View": "Druga spavaća soba s kaučem na razvlačenje pod krovom",
       "bathroom": "Kupaonica u izgledu mramora",
       "bathroomShower": "Kupaonica s tušem i umivaonikom",
       "hallway": "Hodnik s balkonskim vratima i pogledom na more",
@@ -236,7 +236,7 @@
     "eyebrow": "Kontakt",
     "title": "Pošaljite upit za svoj termin",
     "intro": "Javite nam se — obično odgovaramo u roku od nekoliko sati.",
-    "whatsappGreeting": "Pozdrav! Zanima me Apartment Ivanka u Mastrinki kod Trogira.",
+    "whatsappGreeting": "Pozdrav! Zanima me Apartment Dani u Mastrinki kod Trogira.",
     "whatsappHint": "Najbrži način da nas dobijete",
     "emailLabel": "E-pošta",
     "phoneLabel": "Telefon",

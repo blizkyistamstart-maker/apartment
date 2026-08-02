@@ -4,7 +4,7 @@
  * Datenstand: Booking.com-Inserat, Juli 2026.
  */
 export const site = {
-  name: "Apartment Ivanka",
+  name: "Apartment Dani",
   /** Öffentliche URL nach dem Deployment (für SEO/hreflang). */
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
 
@@ -88,7 +88,7 @@ export const site = {
     { src: "/images/bedroom-seaview.jpg", key: "bedroomSeaview" },
     { src: "/images/bedroom-sunset.jpg", key: "bedroomSunset" },
     { src: "/images/bedroom-orange.jpg", key: "bedroomOrange" },
-    { src: "/images/bedroom2-view.jpg", key: "bedroom2View" },
+    { src: "/images/bedroom2-sofa.jpg", key: "bedroom2View" },
     { src: "/images/bathroom.jpg", key: "bathroom" },
     { src: "/images/bathroom-shower.jpg", key: "bathroomShower" },
     { src: "/images/hallway.jpg", key: "hallway" },

@@ -1,4 +1,4 @@
-# Apartment Ivanka — Website
+# Apartment Dani — Website
 
 Website für die Dachgeschoss-Ferienwohnung in Mastrinka auf Čiovo (Trogir, Kroatien).
 4 Sprachen (Deutsch, Englisch, Kroatisch, Polnisch), Verfügbarkeitskalender mit

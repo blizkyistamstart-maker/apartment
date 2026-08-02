@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { BedDouble, Building2, Ruler, Users } from "lucide-react";
 import { site } from "@/lib/site";
-import heroImage from "../../public/images/balcony-panorama.jpg";
+import heroImage from "../../public/images/sunset.jpg";
 
 export function Hero() {
   const t = useTranslations("Hero");

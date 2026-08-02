@@ -6,6 +6,7 @@ import kitchen from "../../public/images/kitchen.jpg";
 import kitchenDetail from "../../public/images/kitchen-detail.jpg";
 import bedroomOrange from "../../public/images/bedroom-orange.jpg";
 import bedroomSunset from "../../public/images/bedroom-sunset.jpg";
+import bedroom2Sofa from "../../public/images/bedroom2-sofa.jpg";
 import bathroom from "../../public/images/bathroom.jpg";
 import bathroomShower from "../../public/images/bathroom-shower.jpg";
 
@@ -29,7 +30,7 @@ const items: HighlightItem[] = [
     gridImages: [
       { src: bedroomOrange, key: "bedroom1Hero" },
       { src: bedroomSunset, key: "bedroom2Hero" },
-      { src: bedroom2View, key: "bedroomViewDetail" },
+      { src: bedroom2Sofa, key: "bedroomViewDetail" },
     ],
   },
   {
