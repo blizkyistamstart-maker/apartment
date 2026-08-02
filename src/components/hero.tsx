@@ -36,16 +36,13 @@ export function Hero() {
         className="-z-20 object-cover"
         sizes="100vw"
       />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-sea-900/95 via-sea-900/35 to-sea-900/30" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-sea-900/95 via-sea-900/40 to-transparent" />
 
-      <div className="mx-auto w-full max-w-6xl px-4 pb-14 pt-36 sm:px-6">
+      <div className="mx-auto w-full max-w-6xl px-4 pb-14 pt-20 sm:px-6">
         <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sand-200">
           {t("eyebrow")}
         </p>
-        <h1 className="mt-4 max-w-3xl font-display text-4xl font-medium leading-tight tracking-tight text-white sm:text-6xl">
-          {t("headline")}
-        </h1>
-        <p className="mt-5 max-w-xl text-lg leading-relaxed text-sand-100/90">
+        <p className="mt-4 max-w-2xl text-xl leading-relaxed text-sand-100 sm:text-2xl">
           {t("subheadline", { guests: apartment.maxGuests })}
         </p>
 
