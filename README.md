@@ -36,8 +36,8 @@ Es gibt zwei Wege, und beide enden in einer **vorbefuellten WhatsApp-Nachricht**
 Der Nachrichtentext steht in `messages/*.json` unter `Booking.whatsappMessage`.
 Die gemeinsame Logik liegt in `src/components/booking-request.tsx`.
 
-> **Wichtig:** Damit das funktioniert, muss die echte WhatsApp-Nummer in
-> `src/lib/site.ts` eingetragen sein (siehe TODO unten).
+> Die WhatsApp-Nummer ist eingetragen (+49 177 9654876, Stand November 2026).
+> Aendern: `contact.phone` + `contact.whatsapp` in `src/lib/site.ts`.
 
 Das E-Mail-Formular bleibt als Alternative unter "Kontakt" bestehen.
 
@@ -54,11 +54,10 @@ schrumpft so von ~170 KB auf ~13 KB — die Originaldateien muessen nicht angefa
 
 **Noch offen vor dem Livegang (in `src/lib/site.ts` als TODO markiert):**
 
-1. **Telefon-/WhatsApp-Nummer** — aktuell ein Platzhalter (`+385 91 000 0000`).
-   Solange keine echte Nummer eingetragen ist, führen die WhatsApp-Buttons ins Leere.
-2. **Genaue Koordinaten** — die Karte zeigt das Ortszentrum von Mastrinka.
+1. **Genaue Koordinaten** — die Karte zeigt das Ortszentrum von Mastrinka.
    In Google Maps das Haus lange gedrückt halten, Koordinaten kopieren und
    `lat`/`lng` in `src/lib/site.ts` ersetzen.
+2. **Booking-iCal-URL** — bis dahin zeigt der Kalender Beispielbelegungen.
 
 ## Booking.com-Kalender verbinden
 

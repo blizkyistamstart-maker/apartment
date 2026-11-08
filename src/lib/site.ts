@@ -11,13 +11,11 @@ export const site = {
   contact: {
     email: "spajic.antonio17@gmail.com",
     /**
-     * !!! TODO (Antonio): Das ist noch ein PLATZHALTER.
-     * Echte Handynummer eintragen (mit Ländervorwahl), sonst laufen alle
-     * WhatsApp-Buttons und der Telefon-Link ins Leere.
-     * phone: Anzeigeformat, whatsapp: nur Ziffern ohne "+".
+     * Antonios Handynummer (deutsche Nummer, Stand November 2026).
+     * phone: Anzeigeformat, whatsapp: nur Ziffern ohne "+" und ohne führende 0.
      */
-    phone: "+385 91 000 0000",
-    whatsapp: "385910000000",
+    phone: "+49 177 9654876",
+    whatsapp: "491779654876",
   },
 
   /** Unser Inserat auf Booking.com (Sprachvariante via bookingComUrlForLocale). */
