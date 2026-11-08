@@ -31,12 +31,14 @@
   },
   "Highlights": {
     "eyebrow": "Highlights",
-    "title": "The best rooms first",
-    "intro": "Four rooms, four first impressions — living room, kitchen, bedrooms and bathroom.",
+    "title": "Take a look around",
+    "intro": "The best views and rooms of the apartment — with a short description.",
     "items": {
       "sunset": {
         "name": "Sunset",
-        "text": "Every evening this view over the bay of Trogir — the highlight of every day on the balcony."
+        "text": "Every evening this view over the bay of Trogir — the highlight of every day on the balcony.",
+        "alt": "Sunset over the bay of Trogir, seen from the balcony",
+        "altSide": "Evening glow over the bay, seen from the balcony"
       },
       "kitchen": {
         "name": "Kitchen",
@@ -44,24 +46,45 @@
         "captions": {
           "kitchenHero": "Fully equipped kitchen with gas hob",
           "kitchenDetail": "Kitchenette in detail"
-        }
+        },
+        "alt": "Fully equipped kitchen with hob and oven"
       },
       "sleeping": {
         "name": "Bedrooms",
-        "text": "Two quiet rooms under the roof — one with sea view, one overlooking the rooftops to the bay.",
+        "text": "Two quiet rooms under the roof — both with a window towards the bay.",
         "captions": {
           "bedroom1Hero": "Bedroom 1 with double bed and sea view",
           "bedroom2Hero": "Bedroom 2 with wooden bed",
           "bedroomViewDetail": "Second bedroom with sofa bed under the roof"
-        }
+        },
+        "alt": "Bedroom 1 with double bed and view of the bay",
+        "altSide": "Bedroom 2 with wooden bed and sea view"
       },
       "bath": {
         "name": "Bathroom",
-        "text": "Modern marble-look, with walk-in shower — fresh and ready for the next day.",
+        "text": "Modern marble look with shower, toilet and a window — bright and fresh.",
         "captions": {
           "bathroomHero": "Bathroom in marble look",
           "bathroomDetail": "Shower and washbasin in detail"
-        }
+        },
+        "alt": "Marble-look bathroom with shower and window"
+      },
+      "living": {
+        "name": "Living area",
+        "text": "Large corner sofa, a dining table for the whole family, TV and air conditioning — the open living area under the roof.",
+        "alt": "Living room with large corner sofa and coffee table",
+        "altSide": "Open living and dining area with wooden table"
+      },
+      "sleeping2": {
+        "name": "Room for five",
+        "text": "The second bedroom also has a day bed — so up to five guests sleep comfortably.",
+        "alt": "Second bedroom with an extra day bed and wardrobe"
+      },
+      "balcony": {
+        "name": "The balcony",
+        "text": "Covered balcony with table, chairs and a parasol — breakfast and dinner with a view over the bay.",
+        "alt": "Covered balcony with table, chairs and sea view",
+        "altSide": "View from the balcony over the bay towards Trogir and the mountains"
       }
     }
   },
@@ -96,26 +119,26 @@
     "eyebrow": "Gallery",
     "title": "Have a look around",
     "captions": {
-      "balconyPanorama": "Panoramic view from the balcony over the bay of Trogir",
-      "balconySea": "Covered balcony with sea view and parasol",
-      "viewBay": "View across the bay towards Trogir and the mountains",
+      "balconySea": "Covered balcony with table, chairs and sea view",
+      "viewBay": "View over the bay towards Trogir and the mountains",
       "sunset": "Sunset over the bay of Trogir",
-      "sunsetBalcony": "Evening glow from the balcony",
-      "living": "Living room with large corner sofa",
-      "livingOpen": "Open living and dining area with TV and air conditioning",
-      "dining": "Dining area with wooden table and sofa",
+      "sunsetBalcony": "Evening glow over the bay, from the balcony",
+      "living": "Living room with large corner sofa and coffee table",
+      "livingOpen": "Living area under the roof with corner sofa",
+      "dining": "Open living and dining area with wooden table",
       "diningTable": "Table set for dinner",
       "kitchen": "Fully equipped kitchen",
       "kitchenDetail": "Kitchen counter with stove and oven",
-      "hallwaySeaview": "Dining area looking towards the sea-view balcony door",
-      "bedroomSeaview": "Bedroom with double bed and sea view",
-      "bedroomSunset": "Bedroom with an additional sofa bed",
-      "bedroomOrange": "Second bedroom with sea view",
-      "bedroom2View": "Second bedroom with sofa bed under the roof",
-      "bathroom": "Marble-look bathroom",
+      "bedroomSunset": "Bedroom 2 with wooden bed and sea view",
+      "bedroomOrange": "Bedroom 1 with double bed and view of the bay",
+      "bedroom2View": "Second bedroom with an extra day bed",
+      "bathroom": "Marble-look bathroom with shower",
       "bathroomShower": "Bathroom with shower and washbasin",
       "hallway": "Hallway with balcony door and sea view",
-      "entrance": "House entrance with bougainvillea and private stairs"
+      "entrance": "House entrance with bougainvillea and private stairs",
+      "livingSofa": "The corner sofa in the living area",
+      "bathroomWide": "Bathroom with shower, toilet and window",
+      "hallwayDetail": "Hallway with dolphin decoration"
     },
     "close": "Close",
     "previous": "Previous image",
@@ -136,7 +159,15 @@
     "syncNote": "Synced automatically with our booking calendar.",
     "cta": "Ask about your dates",
     "prevMonth": "Previous month",
-    "nextMonth": "Next month"
+    "nextMonth": "Next month",
+    "legendSelected": "Selected",
+    "yourStay": "Your stay",
+    "pickArrival": "Tap your arrival day, then your departure day.",
+    "pickDeparture": "Arrival {arrival} — now pick your departure day.",
+    "rangeSummary": "{arrival} to {departure} · {nights} nights",
+    "rangeBlocked": "Sorry, there is a booking in this period. Please pick other dates.",
+    "clear": "Reset",
+    "formAlternative": "Prefer email?"
   },
   "Location": {
     "eyebrow": "Location",
@@ -145,10 +176,22 @@
     "body": "The apartment is in Mastrinka on the island of Čiovo, right above the bay of Trogir. The pebble beach is a few minutes' walk down the hill, and a supermarket is close by. Trogir's UNESCO old town with its konobas and the Kamerlengo fortress is a few minutes away by car, and Split Airport is only 5 km — perfect for a stress-free arrival and departure.",
     "mapTitle": "Map showing the location of the apartment in Mastrinka on Čiovo",
     "distances": {
-      "oldTown": { "label": "Trogir old town (UNESCO)", "value": "3.5 km" },
-      "beach": { "label": "Mastrinka beach", "value": "3-minute walk" },
-      "airport": { "label": "Split Airport (SPU)", "value": "5 km" },
-      "split": { "label": "Split", "value": "approx. 30 km" }
+      "oldTown": {
+        "label": "Trogir old town (UNESCO)",
+        "value": "3.5 km"
+      },
+      "beach": {
+        "label": "Mastrinka beach",
+        "value": "3-minute walk"
+      },
+      "airport": {
+        "label": "Split Airport (SPU)",
+        "value": "5 km"
+      },
+      "split": {
+        "label": "Split",
+        "value": "approx. 30 km"
+      }
     }
   },
   "Reviews": {
@@ -277,5 +320,15 @@
   },
   "StickyCta": {
     "cta": "Check availability"
+  },
+  "Booking": {
+    "arrival": "Check-in",
+    "departure": "Check-out",
+    "guests": "Guests",
+    "submit": "Request via WhatsApp",
+    "hint": "Pick your dates — your request goes straight to us on WhatsApp.",
+    "hintReady": "All set — one tap and your message is pre-filled.",
+    "hintOrder": "Check-out has to be after check-in.",
+    "whatsappMessage": "Hello! I would like to enquire about Apartment Dani in Mastrinka.\n\nCheck-in: {arrival}\nCheck-out: {departure}\nNights: {nights}\nGuests: {guests}\n\nAre these dates available?"
   }
 }

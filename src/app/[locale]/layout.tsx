@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { site } from "@/lib/site";
 import "../globals.css";
@@ -16,6 +16,16 @@ const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin", "latin-ext"],
 });
+
+/** Namespaces, die von Client-Komponenten benutzt werden (siehe "use client"). */
+const CLIENT_NAMESPACES = [
+  "Availability",
+  "Booking",
+  "Gallery",
+  "Form",
+  "Header",
+  "StickyCta",
+] as const;
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -62,10 +72,25 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale);
 
+  /**
+   * Nur die Namespaces an den Browser schicken, die Client-Komponenten
+   * wirklich brauchen - die restlichen Texte rendert der Server.
+   * Spart rund zwei Drittel der uebertragenen Textmenge.
+   */
+  const messages = await getMessages();
+  const clientMessages = Object.fromEntries(
+    CLIENT_NAMESPACES.filter((ns) => ns in messages).map((ns) => [
+      ns,
+      messages[ns],
+    ]),
+  );
+
   return (
     <html lang={locale} className={`${fraunces.variable} ${inter.variable}`}>
       <body className="min-h-screen antialiased">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider messages={clientMessages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

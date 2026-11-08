@@ -18,14 +18,16 @@ export async function AvailabilitySection() {
       <p className="mt-4 text-sm italic text-ink-500">
         {isMock ? t("mockNote") : t("syncNote")}
       </p>
-      <div className="mt-8 text-center">
+      {/* Der WhatsApp-Button steckt im Kalender — hier nur der Weg übers Formular */}
+      <p className="mt-6 text-center text-sm text-ink-500">
+        {t("formAlternative")}{" "}
         <a
           href="#contact"
-          className="inline-block rounded-full bg-terra-500 px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-terra-700/20 transition hover:bg-terra-600"
+          className="font-semibold text-sea-700 underline decoration-sea-300 underline-offset-4 transition hover:text-sea-900"
         >
           {t("cta")}
         </a>
-      </div>
+      </p>
     </Section>
   );
 }

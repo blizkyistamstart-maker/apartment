@@ -2,44 +2,38 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Section } from "./section";
 import sunset from "../../public/images/sunset.jpg";
+import viewBay from "../../public/images/view-bay.jpg";
+// Achtung: Dateiname irrefuehrend - zeigt den Balkon mit Meerblick
+import balcony from "../../public/images/bedroom2-view.jpg";
+import sunsetBalcony from "../../public/images/sunset-balcony.jpg";
+import livingRoom from "../../public/images/living-room.jpg";
+import dining from "../../public/images/dining.jpg";
 import kitchen from "../../public/images/kitchen.jpg";
-import kitchenDetail from "../../public/images/kitchen-detail.jpg";
 import bedroomOrange from "../../public/images/bedroom-orange.jpg";
 import bedroomSunset from "../../public/images/bedroom-sunset.jpg";
-import bedroom2Sofa from "../../public/images/bedroom2-sofa.jpg";
 import bathroom from "../../public/images/bathroom.jpg";
-import bathroomShower from "../../public/images/bathroom-shower.jpg";
+import bedroom2Sofa from "../../public/images/bedroom2-sofa.jpg";
 
-type HighlightItem = {
+type Highlight = {
   key: string;
-  singleImage?: typeof sunset;
-  gridImages?: Array<{ src: typeof kitchen; key: string }>;
+  /** Grosses Leitbild — zeigt moeglichst viel vom Raum. */
+  hero: typeof sunset;
+  /** Optionales zweites Bild daneben. */
+  side?: typeof sunset;
 };
 
-const items: HighlightItem[] = [
-  { key: "sunset", singleImage: sunset },
-  {
-    key: "kitchen",
-    gridImages: [
-      { src: kitchen, key: "kitchenHero" },
-      { src: kitchenDetail, key: "kitchenDetail" },
-    ],
-  },
-  {
-    key: "sleeping",
-    gridImages: [
-      { src: bedroomOrange, key: "bedroom1Hero" },
-      { src: bedroomSunset, key: "bedroom2Hero" },
-      { src: bedroom2Sofa, key: "bedroomViewDetail" },
-    ],
-  },
-  {
-    key: "bath",
-    gridImages: [
-      { src: bathroom, key: "bathroomHero" },
-      { src: bathroomShower, key: "bathroomDetail" },
-    ],
-  },
+/**
+ * Nach dem Hero kommen zuerst die grossen Bilder: pro Bereich ein
+ * weitwinkliges Leitbild, darunter eine kurze Beschreibung.
+ */
+const items: Highlight[] = [
+  { key: "sunset", hero: sunset, side: sunsetBalcony },
+  { key: "balcony", hero: balcony, side: viewBay },
+  { key: "living", hero: livingRoom, side: dining },
+  { key: "kitchen", hero: kitchen },
+  { key: "sleeping", hero: bedroomOrange, side: bedroomSunset },
+  { key: "sleeping2", hero: bedroom2Sofa },
+  { key: "bath", hero: bathroom },
 ];
 
 export function Highlights() {
@@ -52,74 +46,62 @@ export function Highlights() {
       title={t("title")}
       intro={t("intro")}
     >
-      <div className="space-y-14 sm:space-y-20">
-        {items.map(({ key, singleImage, gridImages }, i) => (
-          <div
-            key={key}
-            className="grid items-center gap-6 lg:grid-cols-12 lg:gap-12"
-          >
+      <div className="space-y-12 sm:space-y-16">
+        {items.map(({ key, hero, side }, i) => (
+          <figure key={key}>
             <div
-              className={`lg:col-span-7 ${
-                i % 2 === 1 ? "lg:order-2" : ""
-              }`}
+              className={
+                side
+                  ? "grid gap-3 sm:grid-cols-[3fr_2fr] sm:gap-4"
+                  : undefined
+              }
             >
-              {singleImage ? (
+              {/* Leitbild: breit und gross, damit man den Raum wirklich sieht */}
+              <div className="relative overflow-hidden rounded-3xl shadow-xl shadow-ink-900/10">
+                <span className="block aspect-[16/10]" />
+                <Image
+                  src={hero}
+                  alt={t(`items.${key}.alt`)}
+                  fill
+                  placeholder="blur"
+                  quality={75}
+                  // Erstes Bild direkt unter dem Hero fruehzeitig laden
+                  loading={i === 0 ? "eager" : "lazy"}
+                  sizes={
+                    side
+                      ? "(max-width: 640px) 100vw, (max-width: 1152px) 60vw, 690px"
+                      : "(max-width: 1152px) 100vw, 1152px"
+                  }
+                  className="object-cover"
+                />
+              </div>
+              {side ? (
                 <div className="relative overflow-hidden rounded-3xl shadow-xl shadow-ink-900/10">
-                  <span className="block aspect-[4/3]" />
+                  <span className="block aspect-[16/10] sm:aspect-auto sm:h-full" />
                   <Image
-                    src={singleImage}
-                    alt={t(`items.${key}.name`)}
+                    src={side}
+                    alt={t(`items.${key}.altSide`)}
                     fill
                     placeholder="blur"
-                    sizes="(max-width: 1024px) 100vw, 58vw"
+                    quality={75}
+                    loading="lazy"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1152px) 40vw, 460px"
                     className="object-cover"
                   />
                 </div>
-              ) : gridImages ? (
-                <div className="grid grid-cols-2 gap-3 sm:gap-4">
-                  {gridImages.map((img, imgIdx) => {
-                    const isHero = gridImages.length >= 3 && imgIdx === 0;
-                    return (
-                      <div
-                        key={img.key}
-                        className={`relative overflow-hidden ${
-                          isHero
-                            ? "col-span-2 rounded-3xl shadow-xl shadow-ink-900/10"
-                            : "col-span-1 rounded-2xl shadow-xl shadow-ink-900/10"
-                        }`}
-                      >
-                        <span
-                          className={`block ${
-                            isHero ? "aspect-[16/10] sm:aspect-[16/9]" : "aspect-[4/3]"
-                          }`}
-                        />
-                        <Image
-                          src={img.src}
-                          alt={t(`items.${key}.captions.${img.key}`)}
-                          fill
-                          placeholder="blur"
-                          sizes={
-                            isHero
-                              ? "(max-width: 1024px) 100vw, 66vw"
-                              : "(max-width: 1024px) 50vw, 33vw"
-                          }
-                          className="object-cover"
-                        />
-                      </div>
-                    );
-                  })}
-                </div>
               ) : null}
             </div>
-            <div className="lg:col-span-5">
+
+            {/* Kurze Beschreibung direkt unter den Bildern */}
+            <figcaption className="mt-5 max-w-3xl">
               <h3 className="font-display text-2xl font-medium tracking-tight text-ink-900 sm:text-3xl">
                 {t(`items.${key}.name`)}
               </h3>
-              <p className="mt-3 text-lg leading-relaxed text-ink-500">
+              <p className="mt-2 text-lg leading-relaxed text-ink-500">
                 {t(`items.${key}.text`)}
               </p>
-            </div>
-          </div>
+            </figcaption>
+          </figure>
         ))}
       </div>
     </Section>

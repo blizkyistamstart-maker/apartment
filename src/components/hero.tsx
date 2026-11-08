@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { BedDouble, Building2, Ruler, Users } from "lucide-react";
 import { site } from "@/lib/site";
+import { BookingWidget } from "./booking-widget";
 import heroImage from "../../public/images/sunset.jpg";
 
 export function Hero() {
@@ -26,19 +27,25 @@ export function Hero() {
   ];
 
   return (
-    <section id="top" className="relative isolate flex min-h-[92svh] flex-col justify-end overflow-hidden bg-sea-900">
+    <section
+      id="top"
+      className="relative isolate flex min-h-[94svh] flex-col justify-end overflow-hidden bg-sea-900"
+    >
       <Image
         src={heroImage}
         alt={t("imageAlt")}
         fill
-        priority
+        // Next 16: `priority` ist deprecated — LCP-Bild stattdessen eager laden
+        loading="eager"
+        fetchPriority="high"
+        quality={85}
         placeholder="blur"
         className="-z-20 object-cover"
         sizes="100vw"
       />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-sea-900/95 via-sea-900/40 to-transparent" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-t from-sea-900/95 via-sea-900/50 to-sea-900/20" />
 
-      <div className="mx-auto w-full max-w-6xl px-4 pb-14 pt-20 sm:px-6">
+      <div className="mx-auto w-full max-w-6xl px-4 pb-10 pt-24 sm:px-6">
         <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sand-200">
           {t("eyebrow")}
         </p>
@@ -46,22 +53,7 @@ export function Hero() {
           {t("subheadline", { guests: apartment.maxGuests })}
         </p>
 
-        <div className="mt-8 flex flex-wrap items-center gap-4">
-          <a
-            href="#availability"
-            className="rounded-full bg-terra-500 px-7 py-3.5 text-base font-semibold text-white shadow-lg shadow-terra-700/30 transition hover:bg-terra-600"
-          >
-            {t("ctaPrimary")}
-          </a>
-          <a
-            href="#apartment"
-            className="rounded-full border border-white/40 px-7 py-3.5 text-base font-semibold text-white transition hover:bg-white/10"
-          >
-            {t("ctaSecondary")}
-          </a>
-        </div>
-
-        <p className="mt-6 flex items-center gap-3 text-sm text-sand-100/90">
+        <p className="mt-5 flex items-center gap-3 text-sm text-sand-100/90">
           <span
             aria-hidden
             className="flex size-9 shrink-0 items-center justify-center rounded-lg rounded-bl-none bg-white text-sm font-bold text-sea-900"
@@ -77,7 +69,12 @@ export function Hero() {
           </span>
         </p>
 
-        <dl className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        {/* Direkt buchbar: Datum wählen → WhatsApp-Anfrage */}
+        <div className="mt-7 max-w-3xl">
+          <BookingWidget />
+        </div>
+
+        <dl className="mt-7 grid grid-cols-2 gap-3 sm:grid-cols-4">
           {facts.map(({ icon: Icon, label }) => (
             <div
               key={label}

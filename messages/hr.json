@@ -31,12 +31,14 @@
   },
   "Highlights": {
     "eyebrow": "Najvažnije",
-    "title": "Najbolje prvo",
-    "intro": "Četiri sobe, četiri prva dojma — dnevni boravak, kuhinja, spavaće sobe i kupaonica.",
+    "title": "Razgledajte",
+    "intro": "Najljepši pogledi i prostori apartmana — s kratkim opisom.",
     "items": {
       "sunset": {
         "name": "Zalazak sunca",
-        "text": "Svake večeri ovaj pogled na zaljev Trogira — vrhunac svakog dana na balkonu."
+        "text": "Svake večeri ovaj pogled na zaljev Trogira — vrhunac svakog dana na balkonu.",
+        "alt": "Zalazak sunca nad zaljevom Trogira, pogled s balkona",
+        "altSide": "Večernje rumenilo nad zaljevom, pogled s balkona"
       },
       "kitchen": {
         "name": "Kuhinja",
@@ -44,24 +46,45 @@
         "captions": {
           "kitchenHero": "Potpuno opremljena kuhinja s plinskim štednjukom",
           "kitchenDetail": "Detalj kuhinje"
-        }
+        },
+        "alt": "Potpuno opremljena kuhinja sa štednjakom i pećnicom"
       },
       "sleeping": {
         "name": "Spavaće sobe",
-        "text": "Dvije mirne sobe pod krovom — jedna s pogledom na more, jedna s pogledom preko krovova na zaljev.",
+        "text": "Dvije mirne sobe u potkrovlju — obje s prozorom prema zaljevu.",
         "captions": {
           "bedroom1Hero": "Spavaća soba 1 s bračnim krevetom i pogledom na more",
           "bedroom2Hero": "Spavaća soba 2 s drvenim krevetom",
           "bedroomViewDetail": "Druga spavaća soba s kaučem na razvlačenje pod krovom"
-        }
+        },
+        "alt": "Spavaća soba 1 s bračnim krevetom i pogledom na zaljev",
+        "altSide": "Spavaća soba 2 s drvenim krevetom i pogledom na more"
       },
       "bath": {
         "name": "Kupaonica",
-        "text": "Moderna mramornog izgleda, s tuš kuadom — čisti i spremni za sljedeći dan.",
+        "text": "Moderna, u izgledu mramora, s tušem, WC-om i prozorom — svijetla i svježa.",
         "captions": {
           "bathroomHero": "Kupaonica mramornog izgleda",
           "bathroomDetail": "Tuš i umivaonik u detaljima"
-        }
+        },
+        "alt": "Kupaonica u izgledu mramora s tušem i prozorom"
+      },
+      "living": {
+        "name": "Dnevni boravak",
+        "text": "Velika kutna garnitura, stol za cijelu obitelj, TV i klima — otvoreni dnevni prostor u potkrovlju.",
+        "alt": "Dnevni boravak s velikom kutnom garniturom i stolićem",
+        "altSide": "Otvoreni dnevni i blagovaonski prostor s drvenim stolom"
+      },
+      "sleeping2": {
+        "name": "Mjesta za petero",
+        "text": "U drugoj spavaćoj sobi nalazi se i dnevni ležaj — tako udobno spava do petero gostiju.",
+        "alt": "Druga spavaća soba s dodatnim ležajem i ormarom"
+      },
+      "balcony": {
+        "name": "Balkon",
+        "text": "Natkriveni balkon sa stolom, stolicama i suncobranom — doručak i večera s pogledom na zaljev.",
+        "alt": "Natkriveni balkon sa stolom, stolicama i pogledom na more",
+        "altSide": "Pogled s balkona na zaljev prema Trogiru i planinama"
       }
     }
   },
@@ -96,26 +119,26 @@
     "eyebrow": "Galerija",
     "title": "Razgledajte",
     "captions": {
-      "balconyPanorama": "Panoramski pogled s balkona na trogirski zaljev",
-      "balconySea": "Natkriveni balkon s pogledom na more i suncobranom",
-      "viewBay": "Pogled preko zaljeva na Trogir i planine",
+      "balconySea": "Natkriveni balkon sa stolom, stolicama i pogledom na more",
+      "viewBay": "Pogled na zaljev prema Trogiru i planinama",
       "sunset": "Zalazak sunca nad trogirskim zaljevom",
-      "sunsetBalcony": "Večernje rumenilo s balkona",
-      "living": "Dnevni boravak s velikom kutnom garniturom",
-      "livingOpen": "Otvoreni dnevni i blagovaonski prostor s TV-om i klimom",
-      "dining": "Blagovaonica s drvenim stolom i sofom",
+      "sunsetBalcony": "Večernje rumenilo nad zaljevom, s balkona",
+      "living": "Dnevni boravak s velikom kutnom garniturom i stolićem",
+      "livingOpen": "Dnevni prostor u potkrovlju s kutnom garniturom",
+      "dining": "Otvoreni dnevni i blagovaonski prostor s drvenim stolom",
       "diningTable": "Postavljeni blagovaonski stol",
       "kitchen": "Potpuno opremljena kuhinja",
       "kitchenDetail": "Kuhinjski element sa štednjakom i pećnicom",
-      "hallwaySeaview": "Blagovaonica s pogledom prema balkonskim vratima i moru",
-      "bedroomSeaview": "Spavaća soba s bračnim krevetom i pogledom na more",
-      "bedroomSunset": "Spavaća soba s dodatnom sofom na razvlačenje",
-      "bedroomOrange": "Druga spavaća soba s pogledom na more",
-      "bedroom2View": "Druga spavaća soba s kaučem na razvlačenje pod krovom",
-      "bathroom": "Kupaonica u izgledu mramora",
+      "bedroomSunset": "Spavaća soba 2 s drvenim krevetom i pogledom na more",
+      "bedroomOrange": "Spavaća soba 1 s bračnim krevetom i pogledom na zaljev",
+      "bedroom2View": "Druga spavaća soba s dodatnim ležajem",
+      "bathroom": "Kupaonica u izgledu mramora s tušem",
       "bathroomShower": "Kupaonica s tušem i umivaonikom",
       "hallway": "Hodnik s balkonskim vratima i pogledom na more",
-      "entrance": "Ulaz u kuću s bugenvilijom i vlastitim stubama"
+      "entrance": "Ulaz u kuću s bugenvilijom i vlastitim stubištem",
+      "livingSofa": "Kutna garnitura u dnevnom boravku",
+      "bathroomWide": "Kupaonica s tušem, WC-om i prozorom",
+      "hallwayDetail": "Hodnik s ukrasnim dupinima"
     },
     "close": "Zatvori",
     "previous": "Prethodna slika",
@@ -136,7 +159,15 @@
     "syncNote": "Automatski se sinkronizira s našim kalendarom rezervacija.",
     "cta": "Pošaljite upit za termin",
     "prevMonth": "Prethodni mjesec",
-    "nextMonth": "Sljedeći mjesec"
+    "nextMonth": "Sljedeći mjesec",
+    "legendSelected": "Odabrano",
+    "yourStay": "Vaš termin",
+    "pickArrival": "Dotaknite dan dolaska, zatim dan odlaska.",
+    "pickDeparture": "Dolazak {arrival} — sada odaberite dan odlaska.",
+    "rangeSummary": "{arrival} do {departure} · {nights} noćenja",
+    "rangeBlocked": "Nažalost, u tom je terminu već rezervacija. Odaberite druge datume.",
+    "clear": "Poništi",
+    "formAlternative": "Radije e-poštom?"
   },
   "Location": {
     "eyebrow": "Lokacija",
@@ -145,10 +176,22 @@
     "body": "Apartman se nalazi u Mastrinki na otoku Čiovu, točno iznad trogirskog zaljeva. Do šljunčane plaže spušta se pješice za nekoliko minuta, a trgovina je u neposrednoj blizini. Do trogirske starogradske jezgre pod zaštitom UNESCO-a, s konobama i tvrđavom Kamerlengo, stiže se autom za nekoliko minuta, a zračna luka Split udaljena je samo 5 km — savršeno za dolazak i odlazak bez stresa.",
     "mapTitle": "Karta s lokacijom apartmana u Mastrinki na Čiovu",
     "distances": {
-      "oldTown": { "label": "Stara jezgra Trogira (UNESCO)", "value": "3,5 km" },
-      "beach": { "label": "Plaža Mastrinka", "value": "3 minute hoda" },
-      "airport": { "label": "Zračna luka Split (SPU)", "value": "5 km" },
-      "split": { "label": "Split", "value": "oko 30 km" }
+      "oldTown": {
+        "label": "Stara jezgra Trogira (UNESCO)",
+        "value": "3,5 km"
+      },
+      "beach": {
+        "label": "Plaža Mastrinka",
+        "value": "3 minute hoda"
+      },
+      "airport": {
+        "label": "Zračna luka Split (SPU)",
+        "value": "5 km"
+      },
+      "split": {
+        "label": "Split",
+        "value": "oko 30 km"
+      }
     }
   },
   "Reviews": {
@@ -277,5 +320,15 @@
   },
   "StickyCta": {
     "cta": "Provjeri dostupnost"
+  },
+  "Booking": {
+    "arrival": "Dolazak",
+    "departure": "Odlazak",
+    "guests": "Gosti",
+    "submit": "Pošalji upit na WhatsApp",
+    "hint": "Odaberite datume — upit ide odmah nama na WhatsApp.",
+    "hintReady": "Sve je spremno — jedan klik i poruka je ispunjena.",
+    "hintOrder": "Odlazak mora biti nakon dolaska.",
+    "whatsappMessage": "Dobar dan! Želio/la bih upitati za Apartman Dani u Mastrinki.\n\nDolazak: {arrival}\nOdlazak: {departure}\nNoćenja: {nights}\nGosti: {guests}\n\nJe li termin slobodan?"
   }
 }

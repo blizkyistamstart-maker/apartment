@@ -24,6 +24,34 @@ Dann http://localhost:3000 öffnen (leitet automatisch auf /en, /de usw. weiter)
 | **Videos** | Dateien in `public/videos/` legen und in `src/lib/site.ts` unter `videos` eintragen — die Sektion zeigt sie dann automatisch statt des Platzhalters. |
 | **Bewertungen** | Echte Booking.com-Zitate in `messages/*.json` unter `Reviews.items`; Score und Kategorie-Werte in `src/lib/site.ts` unter `rating` — ab und zu mit Booking abgleichen |
 
+## Wie die Buchungs-Anfrage laeuft
+
+Es gibt zwei Wege, und beide enden in einer **vorbefuellten WhatsApp-Nachricht**:
+
+1. **Hero ganz oben** — Anreise, Abreise und Gaestezahl auswaehlen, Button klicken.
+2. **Kalender** (Sektion "Verfuegbarkeit") — Anreisetag antippen, dann Abreisetag.
+   Belegte Tage sind nicht anklickbar; liegt eine Buchung im gewaehlten Zeitraum,
+   erscheint eine Warnung statt des Buttons.
+
+Der Nachrichtentext steht in `messages/*.json` unter `Booking.whatsappMessage`.
+Die gemeinsame Logik liegt in `src/components/booking-request.tsx`.
+
+> **Wichtig:** Damit das funktioniert, muss die echte WhatsApp-Nummer in
+> `src/lib/site.ts` eingetragen sein (siehe TODO unten).
+
+Das E-Mail-Formular bleibt als Alternative unter "Kontakt" bestehen.
+
+## Bilder
+
+Die Fotos werden von Next.js automatisch als AVIF/WebP in der passenden Groesse
+ausgeliefert (Einstellungen in `next.config.ts` unter `images`). Eine Galerie-Kachel
+schrumpft so von ~170 KB auf ~13 KB — die Originaldateien muessen nicht angefasst werden.
+
+> **Achtung bei den Dateinamen:** Die Namen stammen aus dem Booking-Export und
+> stimmen teilweise nicht mit dem Inhalt ueberein — `bedroom2-view.jpg` zeigt
+> z.B. den Balkon und `balcony-panorama.jpg` den Hauseingang. Massgeblich ist
+> der `key` in `src/lib/site.ts` bzw. die Bildunterschrift in `messages/*.json`.
+
 **Noch offen vor dem Livegang (in `src/lib/site.ts` als TODO markiert):**
 
 1. **Telefon-/WhatsApp-Nummer** — aktuell ein Platzhalter (`+385 91 000 0000`).

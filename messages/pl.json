@@ -31,12 +31,14 @@
   },
   "Highlights": {
     "eyebrow": "Najważniejsze",
-    "title": "Najlepsze najpierw",
-    "intro": "Cztery pokoje, cztery pierwsze wrażenia — salon, kuchnia, sypialnie i łazienka.",
+    "title": "Rozejrzyjcie się",
+    "intro": "Najpiękniejsze widoki i wnętrza apartamentu — z krótkim opisem.",
     "items": {
       "sunset": {
         "name": "Zachód słońca",
-        "text": "Każdego wieczoru ten widok na zatokę Trogiru — punkt kulminacyjny każdego dnia na balkonie."
+        "text": "Każdego wieczoru ten widok na zatokę Trogiru — punkt kulminacyjny każdego dnia na balkonie.",
+        "alt": "Zachód słońca nad zatoką Trogiru, widok z balkonu",
+        "altSide": "Wieczorna łuna nad zatoką, widok z balkonu"
       },
       "kitchen": {
         "name": "Kuchnia",
@@ -44,24 +46,45 @@
         "captions": {
           "kitchenHero": "W pełni wyposażona kuchnia z kuchenką gazową",
           "kitchenDetail": "Aneks kuchenny w szczegółach"
-        }
+        },
+        "alt": "W pełni wyposażona kuchnia z płytą i piekarnikiem"
       },
       "sleeping": {
         "name": "Sypialnie",
-        "text": "Dwie spokojne sypialnie pod dachem — jedna z widokiem na morze, jedna z widokiem nad dachami na zatokę.",
+        "text": "Dwa ciche pokoje na poddaszu — oba z oknem na zatokę.",
         "captions": {
           "bedroom1Hero": "Sypialnia 1 z łóżkiem podwójnym i widokiem na morze",
           "bedroom2Hero": "Sypialnia 2 z drewnianym łóżkiem",
           "bedroomViewDetail": "Druga sypialnia z rozkładaną sofą pod skosem dachu"
-        }
+        },
+        "alt": "Sypialnia 1 z łóżkiem podwójnym i widokiem na zatokę",
+        "altSide": "Sypialnia 2 z drewnianym łóżkiem i widokiem na morze"
       },
       "bath": {
         "name": "Łazienka",
-        "text": "Nowoczesna, marmurowy wygląd, z kabiną prysznicową — czystym i gotowym na kolejny dzień.",
+        "text": "Nowoczesna, w stylu marmuru, z prysznicem, WC i oknem — jasna i świeża.",
         "captions": {
           "bathroomHero": "Łazienka w stylu marmuru",
           "bathroomDetail": "Prysznic i umywalka w szczegółach"
-        }
+        },
+        "alt": "Łazienka w stylu marmuru z prysznicem i oknem"
+      },
+      "living": {
+        "name": "Salon",
+        "text": "Duży narożnik, stół dla całej rodziny, telewizor i klimatyzacja — otwarty salon na poddaszu.",
+        "alt": "Salon z dużym narożnikiem i stolikiem kawowym",
+        "altSide": "Otwarty salon z jadalnią i drewnianym stołem"
+      },
+      "sleeping2": {
+        "name": "Miejsce dla pięciu osób",
+        "text": "W drugiej sypialni stoi dodatkowa leżanka — wygodnie śpi tu do pięciu gości.",
+        "alt": "Druga sypialnia z dodatkową leżanką i szafą"
+      },
+      "balcony": {
+        "name": "Balkon",
+        "text": "Zadaszony balkon ze stołem, krzesłami i parasolem — śniadanie i kolacja z widokiem na zatokę.",
+        "alt": "Zadaszony balkon ze stołem, krzesłami i widokiem na morze",
+        "altSide": "Widok z balkonu na zatokę w stronę Trogiru i gór"
       }
     }
   },
@@ -96,26 +119,26 @@
     "eyebrow": "Galeria",
     "title": "Rozejrzyj się",
     "captions": {
-      "balconyPanorama": "Panoramiczny widok z balkonu na zatokę Trogiru",
-      "balconySea": "Zadaszony balkon z widokiem na morze i parasolem",
+      "balconySea": "Zadaszony balkon ze stołem, krzesłami i widokiem na morze",
       "viewBay": "Widok na zatokę w stronę Trogiru i gór",
       "sunset": "Zachód słońca nad zatoką Trogiru",
-      "sunsetBalcony": "Wieczorna łuna z balkonu",
-      "living": "Salon z dużym narożnikiem",
-      "livingOpen": "Otwarty salon z jadalnią, telewizorem i klimatyzacją",
-      "dining": "Jadalnia z drewnianym stołem i sofą",
+      "sunsetBalcony": "Wieczorna łuna nad zatoką, z balkonu",
+      "living": "Salon z dużym narożnikiem i stolikiem kawowym",
+      "livingOpen": "Salon na poddaszu z narożnikiem",
+      "dining": "Otwarty salon z jadalnią i drewnianym stołem",
       "diningTable": "Nakryty stół w jadalni",
       "kitchen": "W pełni wyposażona kuchnia",
       "kitchenDetail": "Blat kuchenny z kuchenką i piekarnikiem",
-      "hallwaySeaview": "Jadalnia z widokiem na drzwi balkonowe i morze",
-      "bedroomSeaview": "Sypialnia z łóżkiem podwójnym i widokiem na morze",
-      "bedroomSunset": "Sypialnia z dodatkową sofą rozkładaną",
-      "bedroomOrange": "Druga sypialnia z widokiem na morze",
-      "bedroom2View": "Druga sypialnia z rozkładaną sofą pod skosem dachu",
-      "bathroom": "Łazienka w wyglądzie marmuru",
+      "bedroomSunset": "Sypialnia 2 z drewnianym łóżkiem i widokiem na morze",
+      "bedroomOrange": "Sypialnia 1 z łóżkiem podwójnym i widokiem na zatokę",
+      "bedroom2View": "Druga sypialnia z dodatkową leżanką",
+      "bathroom": "Łazienka w stylu marmuru z prysznicem",
       "bathroomShower": "Łazienka z prysznicem i umywalką",
       "hallway": "Korytarz z drzwiami balkonowymi i widokiem na morze",
-      "entrance": "Wejście do domu z bugenwillą i własnymi schodami"
+      "entrance": "Wejście do domu z bugenwillą i własnymi schodami",
+      "livingSofa": "Narożnik w salonie",
+      "bathroomWide": "Łazienka z prysznicem, WC i oknem",
+      "hallwayDetail": "Korytarz z dekoracją delfinów"
     },
     "close": "Zamknij",
     "previous": "Poprzednie zdjęcie",
@@ -136,7 +159,15 @@
     "syncNote": "Synchronizowany automatycznie z naszym kalendarzem rezerwacji.",
     "cta": "Zapytaj o termin",
     "prevMonth": "Poprzedni miesiąc",
-    "nextMonth": "Następny miesiąc"
+    "nextMonth": "Następny miesiąc",
+    "legendSelected": "Wybrane",
+    "yourStay": "Wasz termin",
+    "pickArrival": "Dotknijcie dnia przyjazdu, a potem dnia wyjazdu.",
+    "pickDeparture": "Przyjazd {arrival} — teraz wybierzcie dzień wyjazdu.",
+    "rangeSummary": "{arrival} do {departure} · {nights} nocy",
+    "rangeBlocked": "Niestety w tym terminie jest już rezerwacja. Wybierzcie inne daty.",
+    "clear": "Wyczyść",
+    "formAlternative": "Wolicie e-mail?"
   },
   "Location": {
     "eyebrow": "Lokalizacja",
@@ -145,10 +176,22 @@
     "body": "Apartament znajduje się w Mastrince na wyspie Čiovo, tuż nad zatoką Trogiru. Na żwirową plażę schodzi się pieszo w kilka minut, a sklep jest w pobliżu. Do starówki Trogiru z listy UNESCO, z konobami i twierdzą Kamerlengo, dojedziecie autem w kilka minut, a lotnisko w Splicie jest oddalone tylko o 5 km — idealnie na bezstresowy przyjazd i wyjazd.",
     "mapTitle": "Mapa z lokalizacją apartamentu w Mastrince na wyspie Čiovo",
     "distances": {
-      "oldTown": { "label": "Starówka Trogiru (UNESCO)", "value": "3,5 km" },
-      "beach": { "label": "Plaża Mastrinka", "value": "3 minuty pieszo" },
-      "airport": { "label": "Lotnisko Split (SPU)", "value": "5 km" },
-      "split": { "label": "Split", "value": "ok. 30 km" }
+      "oldTown": {
+        "label": "Starówka Trogiru (UNESCO)",
+        "value": "3,5 km"
+      },
+      "beach": {
+        "label": "Plaża Mastrinka",
+        "value": "3 minuty pieszo"
+      },
+      "airport": {
+        "label": "Lotnisko Split (SPU)",
+        "value": "5 km"
+      },
+      "split": {
+        "label": "Split",
+        "value": "ok. 30 km"
+      }
     }
   },
   "Reviews": {
@@ -277,5 +320,15 @@
   },
   "StickyCta": {
     "cta": "Sprawdź dostępność"
+  },
+  "Booking": {
+    "arrival": "Przyjazd",
+    "departure": "Wyjazd",
+    "guests": "Goście",
+    "submit": "Zapytaj przez WhatsApp",
+    "hint": "Wybierzcie termin — zapytanie trafi do nas bezpośrednio na WhatsApp.",
+    "hintReady": "Gotowe — jedno kliknięcie i wiadomość jest wypełniona.",
+    "hintOrder": "Wyjazd musi być po przyjeździe.",
+    "whatsappMessage": "Dzień dobry! Chciałbym/chciałabym zapytać o Apartament Dani w Mastrince.\n\nPrzyjazd: {arrival}\nWyjazd: {departure}\nNoce: {nights}\nGoście: {guests}\n\nCzy ten termin jest wolny?"
   }
 }

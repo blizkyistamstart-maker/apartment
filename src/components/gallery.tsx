@@ -58,6 +58,10 @@ export function Gallery() {
                   ? "(max-width: 768px) 100vw, 66vw"
                   : "(max-width: 768px) 50vw, 33vw"
               }
+              // Kacheln brauchen keine volle Qualitaet - spart Datenmenge
+              quality={60}
+              // Die ersten Kacheln sofort, der Rest erst beim Scrollen
+              loading={i < 4 ? "eager" : "lazy"}
               className="object-cover transition duration-300 group-hover:scale-105"
             />
             <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink-900/70 to-transparent px-3 pb-2 pt-8 text-left text-sm font-medium text-white opacity-0 transition group-hover:opacity-100">
@@ -94,7 +98,9 @@ export function Gallery() {
                 src={images[openIndex].src}
                 alt={t(`captions.${images[openIndex].key}`)}
                 fill
-                sizes="100vw"
+                sizes="(max-width: 1024px) 100vw, 1024px"
+                quality={85}
+                loading="eager"
                 className="object-contain"
               />
             </div>

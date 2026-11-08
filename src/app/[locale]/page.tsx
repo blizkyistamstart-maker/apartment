@@ -71,13 +71,15 @@ export default async function HomePage({
     <>
       <Header />
       <main>
+        {/* Reihenfolge: zuerst buchen (Hero mit Datumswahl), dann die
+            grossen Bilder, dann kurze Beschreibung, dann der Kalender. */}
         <Hero />
         <Highlights />
         <Apartment />
+        <AvailabilitySection />
         <Gallery />
         {/* Video-Sektion vorerst ausgeblendet — reaktivieren, sobald ein Rundgang-Video existiert */}
         {/* <VideoSection /> */}
-        <AvailabilitySection />
         <LocationSection />
         <Reviews />
         <Faq />
